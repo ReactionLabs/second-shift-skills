@@ -1,0 +1,1443 @@
+{
+  "name": "Second Shift Skills Library",
+  "version": "1.0.0",
+  "updated": "2026-11-06",
+  "home": "https://secondshiftos.com/skills",
+  "about": "A free, open library of agent skills hosted by Second Shift. No account, no paywall. Each entry states its class and its what-it-can-touch line. A skill teaches an agent how to do something; it never grants permission to do it. Check the license field on each entry before redistributing.",
+  "guide": {
+    "slug": "find-second-shift-skills",
+    "rawUrl": "https://secondshiftos.com/skills/find-second-shift-skills.md",
+    "note": "Fetch this skill first; it teaches the library’s own conventions."
+  },
+  "skills": [
+    {
+      "slug": "find-second-shift-skills",
+      "name": "Find Second Shift Skills",
+      "shelf": "Start here",
+      "class": "second-shift",
+      "classLabel": "From Second Shift",
+      "description": "The library’s own guide skill, written by Second Shift. It teaches an agent to read the public index (one JSON document), choose a skill by its description, class, and what-it-touches line, and fetch the raw SKILL.md from its stable URL — no account, no sign-in. It also states the library’s ground rule: a skill teaches an agent how to do something; it never grants permission to do it.",
+      "capability": "Teaches any agent to use this library: read the index, pick the skill that fits the job, and fetch its SKILL.md.",
+      "touches": "Reads this library’s index; touches nothing of yours.",
+      "source": {
+        "name": "Second Shift",
+        "repo": "https://secondshiftos.com/skills",
+        "path": "Written for this library"
+      },
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT"
+      },
+      "review": "First-party: written and maintained by Second Shift.",
+      "rawUrl": "https://secondshiftos.com/skills/find-second-shift-skills.md",
+      "detailUrl": "https://secondshiftos.com/skills/find-second-shift-skills",
+      "installCommand": "npx skills add https://secondshiftos.com/skills/find-second-shift-skills.md"
+    },
+    {
+      "slug": "agent-reach",
+      "name": "Agent Reach",
+      "shelf": "Research",
+      "class": "works-anywhere",
+      "classLabel": "Works anywhere",
+      "description": "Read-only reach across the platforms agents are usually blind to: X/Twitter, Reddit, YouTube (subtitles and transcripts), GitHub, LinkedIn and job boards, Instagram, Facebook, RSS feeds, podcasts, and general web search. Reach for it when a job starts with a link, a platform, or a question the open web can answer. It reads and reports; it never posts, comments, or logs in as anyone.",
+      "capability": "Lets an agent read the live internet: search and pull posts, comments, transcripts, and pages from X, Reddit, YouTube, GitHub, LinkedIn, RSS, and the open web.",
+      "touches": "Reads public web content only. Never posts, comments, likes, or logs in as you.",
+      "source": {
+        "name": "Panniantong/Agent-Reach",
+        "repo": "https://github.com/Panniantong/Agent-Reach",
+        "path": "agent_reach/skill/ (English edition)"
+      },
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT (© 2025 Agent Eyes)"
+      },
+      "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
+      "caveat": "What you get here is the skill file itself. Several of its channels connect through a companion command-line tool, and the channels that read through your own browser logins (X, Reddit, Instagram) are a separate opt-in. They are not part of this download and nothing here enables them.",
+      "rawUrl": "https://secondshiftos.com/skills/agent-reach.md",
+      "detailUrl": "https://secondshiftos.com/skills/agent-reach",
+      "installCommand": "npx skills add Panniantong/Agent-Reach --skill agent-reach"
+    },
+    {
+      "slug": "prospecting",
+      "name": "Prospecting",
+      "shelf": "Prospecting & lead finding",
+      "class": "works-anywhere",
+      "classLabel": "Works anywhere",
+      "description": "An expert system for building qualified prospect lists across four motions: B2B SaaS, general B2B, local small businesses, and early-stage demand-signal discovery — finding first customers from public pain signals, each with a cited source. It covers audience definition, list building from licensed data sources, qualification signals, enrichment, account research, and email verification before anything reaches a sequence. It never scrapes LinkedIn.",
+      "capability": "Turns an ideal-customer profile into a verified, scored prospect list: B2B, local small businesses, and first customers found from public demand signals.",
+      "touches": "Researches public sources and hands you a list. Verifies emails before outreach and never sends anything itself.",
+      "source": {
+        "name": "coreyhaines31/marketingskills",
+        "repo": "https://github.com/coreyhaines31/marketingskills",
+        "path": "skills/prospecting/"
+      },
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT (© 2025 Corey Haines)"
+      },
+      "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
+      "rawUrl": "https://secondshiftos.com/skills/prospecting.md",
+      "detailUrl": "https://secondshiftos.com/skills/prospecting",
+      "installCommand": "npx skills add coreyhaines31/marketingskills --skill prospecting"
+    },
+    {
+      "slug": "frontend-design",
+      "name": "Frontend Design",
+      "shelf": "Design & UI",
+      "class": "works-anywhere",
+      "classLabel": "Works anywhere",
+      "description": "Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. It works like a design lead with a reputation to protect: ground the design in the subject matter, make deliberate, opinionated choices about palette, typography, and composition, and avoid the defaults every template reaches for.",
+      "capability": "Design direction for interfaces that do not look templated: typography, palette, and layout chosen with a point of view.",
+      "touches": "Guidance only. It shapes decisions while you or your agent build; it reads no accounts and changes no data.",
+      "source": {
+        "name": "anthropics/skills",
+        "repo": "https://github.com/anthropics/skills",
+        "path": "skills/frontend-design/"
+      },
+      "license": {
+        "spdx": "Apache-2.0",
+        "name": "Apache License 2.0 (the skill’s own LICENSE.txt)"
+      },
+      "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
+      "rawUrl": "https://secondshiftos.com/skills/frontend-design.md",
+      "detailUrl": "https://secondshiftos.com/skills/frontend-design",
+      "installCommand": "npx skills add anthropics/skills --skill frontend-design"
+    },
+    {
+      "slug": "design-taste-frontend",
+      "name": "Design Taste (Frontend)",
+      "shelf": "Design & UI",
+      "class": "works-anywhere",
+      "classLabel": "Works anywhere",
+      "description": "The anti-slop frontend skill (tasteskill 2.5). It builds professional company websites at the level of figma.com and x.ai: plain copy, one design system, one section per screen, equal edges, real photographs and real product UI, quiet micro-interactions, and a checker that enforces the result in a real browser. Reach for it on any landing, company, product, or SaaS site build, redesign, restyle, or polish pass — or whenever a page looks generic or AI-made.",
+      "capability": "Builds company and product websites at a professional bar: plain copy, one system, real imagery, zero generic slop.",
+      "touches": "Works on your site’s code, copy, and layout. No accounts are read and nothing is sent anywhere.",
+      "source": {
+        "name": "Leonxlnx/taste-skill",
+        "repo": "https://github.com/Leonxlnx/taste-skill",
+        "path": "skills/taste-skill/"
+      },
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT (© 2026 Leonxlnx)"
+      },
+      "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
+      "rawUrl": "https://secondshiftos.com/skills/design-taste-frontend.md",
+      "detailUrl": "https://secondshiftos.com/skills/design-taste-frontend",
+      "installCommand": "npx skills add Leonxlnx/taste-skill --skill design-taste-frontend"
+    },
+    {
+      "slug": "emil-design-eng",
+      "name": "Design Engineering",
+      "shelf": "Design & UI",
+      "class": "works-anywhere",
+      "classLabel": "Works anywhere",
+      "description": "This skill encodes Emil Kowalski’s philosophy on UI polish, component design, and animation: taste is trained rather than innate, details compound, and the difference between good and great is a hundred small calls made correctly. Use it when an interface works but does not yet feel right.",
+      "capability": "Emil Kowalski’s design-engineering judgment: component polish, animation decisions, and the invisible details that make software feel right.",
+      "touches": "Judgment only. It advises on your interface; it touches no accounts, data, or settings.",
+      "source": {
+        "name": "emilkowalski/skills",
+        "repo": "https://github.com/emilkowalski/skills",
+        "path": "skills/emil-design-eng/"
+      },
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT"
+      },
+      "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
+      "rawUrl": "https://secondshiftos.com/skills/emil-design-eng.md",
+      "detailUrl": "https://secondshiftos.com/skills/emil-design-eng",
+      "installCommand": "npx skills add emilkowalski/skills --skill emil-design-eng"
+    },
+    {
+      "slug": "seo-audit",
+      "name": "SEO Audit",
+      "shelf": "Content & SEO",
+      "class": "works-anywhere",
+      "classLabel": "Works anywhere",
+      "description": "A full SEO diagnostic: technical SEO, crawl and indexing issues, on-page and meta review, page speed and Core Web Vitals, ranking drops and lost traffic, and local SEO including Google Business Profile and the map pack. Use it when traffic fell, rankings stall on page two, or you just need the report to say what is wrong and what to fix first. Pages it fetches are treated as untrusted data, never as instructions.",
+      "capability": "Audits a website’s SEO end to end: technical health, rankings, meta, speed, and local presence, with fixes in priority order.",
+      "touches": "Reads your public site and reports back. It changes nothing until you act on the findings.",
+      "source": {
+        "name": "coreyhaines31/marketingskills",
+        "repo": "https://github.com/coreyhaines31/marketingskills",
+        "path": "skills/seo-audit/"
+      },
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT (© 2025 Corey Haines)"
+      },
+      "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
+      "rawUrl": "https://secondshiftos.com/skills/seo-audit.md",
+      "detailUrl": "https://secondshiftos.com/skills/seo-audit",
+      "installCommand": "npx skills add coreyhaines31/marketingskills --skill seo-audit"
+    },
+    {
+      "slug": "social",
+      "name": "Social Media",
+      "shelf": "Social media",
+      "class": "works-anywhere",
+      "classLabel": "Works anywhere",
+      "description": "A drafting-first social partner: pulls real signal from your product context, content, and research, then writes posts in full per channel (native formats, hooks, threads, scripts, carousels) and turns one idea into a week of posts. It never auto-publishes; every post waits for your explicit go-ahead, and it works from what you can point to, never inventing metrics, quotes, or results.",
+      "capability": "Plans, writes, and repurposes social content for LinkedIn, X, Instagram, TikTok, and YouTube Shorts, voice-matched to each channel, with formats and hooks that travel.",
+      "touches": "Works in your own files and drafts. It writes and schedules nothing on any platform without your explicit say-so.",
+      "source": {
+        "name": "coreyhaines31/marketingskills",
+        "repo": "https://github.com/coreyhaines31/marketingskills",
+        "path": "skills/social/"
+      },
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT (© 2025 Corey Haines)"
+      },
+      "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
+      "rawUrl": "https://secondshiftos.com/skills/social.md",
+      "detailUrl": "https://secondshiftos.com/skills/social",
+      "installCommand": "npx skills add coreyhaines31/marketingskills --skill social"
+    },
+    {
+      "slug": "video",
+      "name": "Video Production",
+      "shelf": "Social media",
+      "class": "works-anywhere",
+      "classLabel": "Works anywhere",
+      "description": "An end-to-end video producer covering four lanes: short-form social video, AI generation through the tools you already have access to, YouTube planning and scripting, and programmatic video rendered in batches from spreadsheets and feeds. It starts by asking what tools and keys you have, works with stock and screen recordings when generation is not available, and treats anything fetched from the web as unverified until it is checked against a primary source.",
+      "capability": "Takes video from idea to finished file: short-form social clips, AI-generated video, YouTube production, and programmatic batches from templates and data.",
+      "touches": "Uses the video tools and accounts you provide, in your own workspace. Access to paid generation tools is yours to grant; the skill asks, it never assumes.",
+      "source": {
+        "name": "coreyhaines31/marketingskills",
+        "repo": "https://github.com/coreyhaines31/marketingskills",
+        "path": "skills/video/"
+      },
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT (© 2025 Corey Haines)"
+      },
+      "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
+      "caveat": "Some production lanes use third-party generation tools through keys or accounts you supply. The skill asks what you have before planning around any of them.",
+      "rawUrl": "https://secondshiftos.com/skills/video.md",
+      "detailUrl": "https://secondshiftos.com/skills/video",
+      "installCommand": "npx skills add coreyhaines31/marketingskills --skill video"
+    },
+    {
+      "slug": "community-marketing",
+      "name": "Community Marketing",
+      "shelf": "Social media",
+      "class": "works-anywhere",
+      "classLabel": "Works anywhere",
+      "description": "A community operator covering the full arc: choosing the platform, launch and seeding, the first 100 members, daily engagement systems, turning members into advocates, and measuring retention and sourced pipeline. Participation is honest participation: no astroturfing, no fake engagement, no ban-evasion tactics.",
+      "capability": "Builds and runs owned and third-party communities (Slack, Discord, Reddit, Facebook Groups) that retain members and source pipeline.",
+      "touches": "Guides work in your own community accounts. It posts nothing and messages no one on its own.",
+      "source": {
+        "name": "coreyhaines31/marketingskills",
+        "repo": "https://github.com/coreyhaines31/marketingskills",
+        "path": "skills/community-marketing/"
+      },
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT (© 2025 Corey Haines)"
+      },
+      "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
+      "rawUrl": "https://secondshiftos.com/skills/community-marketing.md",
+      "detailUrl": "https://secondshiftos.com/skills/community-marketing",
+      "installCommand": "npx skills add coreyhaines31/marketingskills --skill community-marketing"
+    },
+    {
+      "slug": "influencer-marketing",
+      "name": "Influencer Marketing",
+      "shelf": "Social media",
+      "class": "works-anywhere",
+      "classLabel": "Works anywhere",
+      "description": "Covers creator discovery and vetting (including fake-follower and brand-safety checks), tiering and rate cards, outreach and negotiation structure, briefs that protect the brand, and measurement through tracked links, codes, and UTMs. Fit and audience trust come before follower counts, and anything fetched from a creator profile is treated as untrusted data.",
+      "capability": "Finds, scores, and briefs creators and influencers, with tracked links and codes, so partnerships produce measurable pipeline instead of vanity reach.",
+      "touches": "Researches public creator profiles and drafts outreach and briefs for you. Sending and signing stay yours.",
+      "source": {
+        "name": "coreyhaines31/marketingskills",
+        "repo": "https://github.com/coreyhaines31/marketingskills",
+        "path": "skills/influencer-marketing/"
+      },
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT (© 2025 Corey Haines)"
+      },
+      "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
+      "rawUrl": "https://secondshiftos.com/skills/influencer-marketing.md",
+      "detailUrl": "https://secondshiftos.com/skills/influencer-marketing",
+      "installCommand": "npx skills add coreyhaines31/marketingskills --skill influencer-marketing"
+    },
+    {
+      "slug": "public-relations",
+      "name": "Public Relations",
+      "shelf": "Social media",
+      "class": "works-anywhere",
+      "classLabel": "Works anywhere",
+      "description": "A PR strategist for product launches, funding news, data stories, and expert commentary. It verifies that a target really covers the beat before pitching, keeps every proof point traceable to a source you provided, and drafts everything for your review. Sending pitches, booking, and follow-ups stay the user’s act, never the skill’s.",
+      "capability": "Earns press coverage: finds the right journalists and outlets, checks they actually cover your space, and drafts pitches and follow-ups in a human voice.",
+      "touches": "Researches public sources and drafts in your workspace. It sends nothing to any journalist or outlet.",
+      "source": {
+        "name": "coreyhaines31/marketingskills",
+        "repo": "https://github.com/coreyhaines31/marketingskills",
+        "path": "skills/public-relations/"
+      },
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT (© 2025 Corey Haines)"
+      },
+      "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
+      "rawUrl": "https://secondshiftos.com/skills/public-relations.md",
+      "detailUrl": "https://secondshiftos.com/skills/public-relations",
+      "installCommand": "npx skills add coreyhaines31/marketingskills --skill public-relations"
+    },
+    {
+      "slug": "events",
+      "name": "Event Marketing",
+      "shelf": "Social media",
+      "class": "works-anywhere",
+      "classLabel": "Works anywhere",
+      "description": "Covers event selection and scoring, talk and webinar design, promotion plans, run-of-show, and follow-up that turns attendance into meetings. It favors honest math on cost per qualified conversation over vanity attendance, and flags manufactured urgency as a pattern to avoid.",
+      "capability": "Plans and runs events that fill rooms and create pipeline: webinars, conference talks, booths, field dinners, and virtual summits.",
+      "touches": "Plans and drafts in your workspace. Registrations, invites, and follow-up sending happen in your own tools.",
+      "source": {
+        "name": "coreyhaines31/marketingskills",
+        "repo": "https://github.com/coreyhaines31/marketingskills",
+        "path": "skills/events/"
+      },
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT (© 2025 Corey Haines)"
+      },
+      "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
+      "rawUrl": "https://secondshiftos.com/skills/events.md",
+      "detailUrl": "https://secondshiftos.com/skills/events",
+      "installCommand": "npx skills add coreyhaines31/marketingskills --skill events"
+    },
+    {
+      "slug": "content-strategy",
+      "name": "Content Strategy",
+      "shelf": "Content & SEO",
+      "class": "works-anywhere",
+      "classLabel": "Works anywhere",
+      "description": "Builds a content plan from your product context instead of a generic topic list: search demand, buyer questions, competitor gaps, and the assets you already have, prioritized into pillars, clusters, and a publishing sequence. Every topic has to earn its place against a business job.",
+      "capability": "Decides what content to create and why: finds the topics your buyers actually search, maps them to the funnel, and sequences the calendar.",
+      "touches": "Plans from your context and public research. It publishes nothing itself.",
+      "source": {
+        "name": "coreyhaines31/marketingskills",
+        "repo": "https://github.com/coreyhaines31/marketingskills",
+        "path": "skills/content-strategy/"
+      },
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT (© 2025 Corey Haines)"
+      },
+      "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
+      "rawUrl": "https://secondshiftos.com/skills/content-strategy.md",
+      "detailUrl": "https://secondshiftos.com/skills/content-strategy",
+      "installCommand": "npx skills add coreyhaines31/marketingskills --skill content-strategy"
+    },
+    {
+      "slug": "copywriting",
+      "name": "Copywriting",
+      "shelf": "Content & SEO",
+      "class": "works-anywhere",
+      "classLabel": "Works anywhere",
+      "description": "A conversion copywriter that starts from your product context and customer language, then drafts page copy with clear structure: one job per page, proof near claims, and CTAs that say what happens next. It runs an explicit AI-tell check (no \"it’s not X, it’s Y\" reveals, no stock phrases) before anything ships to you.",
+      "capability": "Writes and rewrites marketing copy that converts: homepages, landing pages, pricing, features, and about pages, in your voice, free of AI tells.",
+      "touches": "Writes drafts in your workspace. Your site changes only when you make them.",
+      "source": {
+        "name": "coreyhaines31/marketingskills",
+        "repo": "https://github.com/coreyhaines31/marketingskills",
+        "path": "skills/copywriting/"
+      },
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT (© 2025 Corey Haines)"
+      },
+      "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
+      "rawUrl": "https://secondshiftos.com/skills/copywriting.md",
+      "detailUrl": "https://secondshiftos.com/skills/copywriting",
+      "installCommand": "npx skills add coreyhaines31/marketingskills --skill copywriting"
+    },
+    {
+      "slug": "copy-editing",
+      "name": "Copy Editing",
+      "shelf": "Content & SEO",
+      "class": "works-anywhere",
+      "classLabel": "Works anywhere",
+      "description": "An editor for existing copy, from a single line to a full page: clarity, voice, \"so what,\" proof, specificity, emotion, and risk, one pass at a time, plus an AI-tell check that rewrites from the underlying facts instead of swapping synonyms. A request to fix one line gets a point edit that changes only that line.",
+      "capability": "Improves copy you already have through seven focused editing sweeps, tightening clarity and voice without flattening what makes it yours.",
+      "touches": "Edits text you give it, in your workspace. It changes nothing anywhere else.",
+      "source": {
+        "name": "coreyhaines31/marketingskills",
+        "repo": "https://github.com/coreyhaines31/marketingskills",
+        "path": "skills/copy-editing/"
+      },
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT (© 2025 Corey Haines)"
+      },
+      "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
+      "rawUrl": "https://secondshiftos.com/skills/copy-editing.md",
+      "detailUrl": "https://secondshiftos.com/skills/copy-editing",
+      "installCommand": "npx skills add coreyhaines31/marketingskills --skill copy-editing"
+    },
+    {
+      "slug": "ai-seo",
+      "name": "AI SEO",
+      "shelf": "Content & SEO",
+      "class": "works-anywhere",
+      "classLabel": "Works anywhere",
+      "description": "Covers the AI-visibility audit (which of your key queries cite you, and who they cite instead), extractable content structure, the machine-readable files agents read (llms.txt, structured pricing), and AI bot access checks. It follows Google’s own guidance where it applies and is explicit that fabricated mentions and fake reviews are out.",
+      "capability": "Makes your content citable by AI search: audits how ChatGPT, Perplexity, Claude, and Google AI Overviews see your brand, then structures pages to be extracted and quoted.",
+      "touches": "Reads your public site and public AI answers, and reports. Changes happen on your site, by you.",
+      "source": {
+        "name": "coreyhaines31/marketingskills",
+        "repo": "https://github.com/coreyhaines31/marketingskills",
+        "path": "skills/ai-seo/"
+      },
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT (© 2025 Corey Haines)"
+      },
+      "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
+      "rawUrl": "https://secondshiftos.com/skills/ai-seo.md",
+      "detailUrl": "https://secondshiftos.com/skills/ai-seo",
+      "installCommand": "npx skills add coreyhaines31/marketingskills --skill ai-seo"
+    },
+    {
+      "slug": "programmatic-seo",
+      "name": "Programmatic SEO",
+      "shelf": "Content & SEO",
+      "class": "works-anywhere",
+      "classLabel": "Works anywhere",
+      "description": "Plans programmatic page sets around twelve proven playbooks, with the discipline that keeps them out of trouble: unique value on every page, proprietary or product data over scraped filler, clean URL structure, and indexation control. Quality over quantity is the stated rule: 100 great pages beat 10,000 thin ones.",
+      "capability": "Designs SEO pages at scale from templates and real data: locations, comparisons, integrations, directories, and glossaries that each earn their place.",
+      "touches": "Designs the strategy and templates in your workspace. Building and publishing happen in your own stack.",
+      "source": {
+        "name": "coreyhaines31/marketingskills",
+        "repo": "https://github.com/coreyhaines31/marketingskills",
+        "path": "skills/programmatic-seo/"
+      },
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT (© 2025 Corey Haines)"
+      },
+      "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
+      "rawUrl": "https://secondshiftos.com/skills/programmatic-seo.md",
+      "detailUrl": "https://secondshiftos.com/skills/programmatic-seo",
+      "installCommand": "npx skills add coreyhaines31/marketingskills --skill programmatic-seo"
+    },
+    {
+      "slug": "link-building",
+      "name": "Link Building",
+      "shelf": "Content & SEO",
+      "class": "works-anywhere",
+      "classLabel": "Works anywhere",
+      "description": "Diagnoses whether links are actually your bottleneck, inventories what you have that is worth linking to, then works the tactic ladder from unlinked-mention reclamation up to data-led digital PR. It stays inside Google’s spam rules: no bought ranking links, no private blog networks, and outreach is drafted for your approval, never sent on your behalf.",
+      "capability": "Earns backlinks and third-party mentions that lift rankings and AI citations, starting with reclamation and partner pages before any outreach.",
+      "touches": "Researches public link data and drafts outreach for your approval. It sends nothing itself.",
+      "source": {
+        "name": "coreyhaines31/marketingskills",
+        "repo": "https://github.com/coreyhaines31/marketingskills",
+        "path": "skills/link-building/"
+      },
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT (© 2025 Corey Haines)"
+      },
+      "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
+      "rawUrl": "https://secondshiftos.com/skills/link-building.md",
+      "detailUrl": "https://secondshiftos.com/skills/link-building",
+      "installCommand": "npx skills add coreyhaines31/marketingskills --skill link-building"
+    },
+    {
+      "slug": "schema",
+      "name": "Schema Markup",
+      "shelf": "Content & SEO",
+      "class": "works-anywhere",
+      "classLabel": "Works anywhere",
+      "description": "Implements structured data by page type with accuracy as the first rule: schema must match visible content, everything gets validated, and Google’s current feature support is checked first (it will tell you when a rich result you want has been retired rather than sell you markup that cannot pay off).",
+      "capability": "Adds and fixes schema.org structured data (JSON-LD) so search engines understand your pages and the right rich results can appear.",
+      "touches": "Produces markup for your site. You or your developer ship it.",
+      "source": {
+        "name": "coreyhaines31/marketingskills",
+        "repo": "https://github.com/coreyhaines31/marketingskills",
+        "path": "skills/schema/"
+      },
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT (© 2025 Corey Haines)"
+      },
+      "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
+      "rawUrl": "https://secondshiftos.com/skills/schema.md",
+      "detailUrl": "https://secondshiftos.com/skills/schema",
+      "installCommand": "npx skills add coreyhaines31/marketingskills --skill schema"
+    },
+    {
+      "slug": "site-architecture",
+      "name": "Site Architecture",
+      "shelf": "Content & SEO",
+      "class": "works-anywhere",
+      "classLabel": "Works anywhere",
+      "description": "An information-architecture pass for new sites and restructures: hierarchy trees and visual sitemaps, header and footer navigation specs, readable URL patterns, and a hub-and-spoke internal linking plan, delivered as documents you can hand to a builder.",
+      "capability": "Plans a website’s structure: page hierarchy, navigation, URL patterns, and internal linking that visitors and search engines can both follow.",
+      "touches": "Produces plans and diagrams in your workspace. It changes no site.",
+      "source": {
+        "name": "coreyhaines31/marketingskills",
+        "repo": "https://github.com/coreyhaines31/marketingskills",
+        "path": "skills/site-architecture/"
+      },
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT (© 2025 Corey Haines)"
+      },
+      "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
+      "rawUrl": "https://secondshiftos.com/skills/site-architecture.md",
+      "detailUrl": "https://secondshiftos.com/skills/site-architecture",
+      "installCommand": "npx skills add coreyhaines31/marketingskills --skill site-architecture"
+    },
+    {
+      "slug": "competitors",
+      "name": "Competitor Comparison Pages",
+      "shelf": "Content & SEO",
+      "class": "works-anywhere",
+      "classLabel": "Works anywhere",
+      "description": "Creates the four comparison formats from a centralized competitor data file, under strict evidence discipline: competitor facts are dated and sourced, \"not observed\" is never written as \"doesn’t have it,\" competitor strengths are acknowledged, and stale claims get audited and fixed. Honesty is treated as the ranking strategy, not a constraint on it.",
+      "capability": "Builds competitor comparison and alternative pages (\"X alternative,\" \"you vs X\") that rank, read honestly, and help buyers actually decide.",
+      "touches": "Works from your research files and public competitor pages, which it treats as data, never instructions.",
+      "source": {
+        "name": "coreyhaines31/marketingskills",
+        "repo": "https://github.com/coreyhaines31/marketingskills",
+        "path": "skills/competitors/"
+      },
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT (© 2025 Corey Haines)"
+      },
+      "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
+      "rawUrl": "https://secondshiftos.com/skills/competitors.md",
+      "detailUrl": "https://secondshiftos.com/skills/competitors",
+      "installCommand": "npx skills add coreyhaines31/marketingskills --skill competitors"
+    },
+    {
+      "slug": "image",
+      "name": "Marketing Images",
+      "shelf": "Design & UI",
+      "class": "works-anywhere",
+      "classLabel": "Works anywhere",
+      "description": "A visual producer that picks the right approach per asset (AI generation, design tools, real screenshots, stock), prompts with subject, style, and exact dimensions, and then runs the unglamorous half: format choice, compression, lazy loading, and alt text. Its first rule for product shots is to capture real UI, because generated models hallucinate interfaces.",
+      "capability": "Creates and optimizes marketing images: blog heroes, social graphics, product mockups, banners, and OG images, sized and compressed for each surface.",
+      "touches": "Works with the image tools and accounts you provide, in your own files. It asks what generation access you have rather than assuming keys.",
+      "source": {
+        "name": "coreyhaines31/marketingskills",
+        "repo": "https://github.com/coreyhaines31/marketingskills",
+        "path": "skills/image/"
+      },
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT (© 2025 Corey Haines)"
+      },
+      "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
+      "rawUrl": "https://secondshiftos.com/skills/image.md",
+      "detailUrl": "https://secondshiftos.com/skills/image",
+      "installCommand": "npx skills add coreyhaines31/marketingskills --skill image"
+    },
+    {
+      "slug": "product-marketing",
+      "name": "Product Marketing Context",
+      "shelf": "Marketing strategy",
+      "class": "works-anywhere",
+      "classLabel": "Works anywhere",
+      "description": "Interviews you or drafts from your existing materials to build a single product-marketing context file: product overview, target audience and personas, problems, competitive landscape, differentiation, objections, switching dynamics, verbatim customer language, brand voice, proof points, and goals. It versions the document and keeps a changelog, so downstream work stays consistent as positioning evolves.",
+      "capability": "Captures your positioning once (audience, pains, differentiation, customer language, brand voice, proof) in one context document every other marketing skill reads.",
+      "touches": "Writes one context document in your project, from material you provide. It reads nothing you did not point it at.",
+      "source": {
+        "name": "coreyhaines31/marketingskills",
+        "repo": "https://github.com/coreyhaines31/marketingskills",
+        "path": "skills/product-marketing/"
+      },
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT (© 2025 Corey Haines)"
+      },
+      "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
+      "rawUrl": "https://secondshiftos.com/skills/product-marketing.md",
+      "detailUrl": "https://secondshiftos.com/skills/product-marketing",
+      "installCommand": "npx skills add coreyhaines31/marketingskills --skill product-marketing"
+    },
+    {
+      "slug": "marketing-ideas",
+      "name": "Marketing Ideas",
+      "shelf": "Marketing strategy",
+      "class": "works-anywhere",
+      "classLabel": "Works anywhere",
+      "description": "Organizes 139 tactics across content, paid, social, partnerships, launches, product-led growth, and unconventional plays, then recommends the three to five that fit your product, stage, and resources, with first steps and what success looks like for each. A starting point that hands off to channel skills for execution.",
+      "capability": "A library of 139 proven marketing ideas, matched to your stage, budget, and timeline when you are stuck on what to try next.",
+      "touches": "Advice only. It reads your context and recommends; it runs nothing.",
+      "source": {
+        "name": "coreyhaines31/marketingskills",
+        "repo": "https://github.com/coreyhaines31/marketingskills",
+        "path": "skills/marketing-ideas/"
+      },
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT (© 2025 Corey Haines)"
+      },
+      "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
+      "rawUrl": "https://secondshiftos.com/skills/marketing-ideas.md",
+      "detailUrl": "https://secondshiftos.com/skills/marketing-ideas",
+      "installCommand": "npx skills add coreyhaines31/marketingskills --skill marketing-ideas"
+    },
+    {
+      "slug": "marketing-psychology",
+      "name": "Marketing Psychology",
+      "shelf": "Marketing strategy",
+      "class": "works-anywhere",
+      "classLabel": "Works anywhere",
+      "description": "A reference of foundational thinking models, buyer psychology, persuasion principles, and pricing psychology, each with its marketing application and its ethical guardrail (scarcity only when genuine, defaults applied honestly). Reach for it to understand the mechanism behind a tactic before spending on it.",
+      "capability": "Applies behavioral science and mental models to marketing decisions: why people buy, what blocks them, and how to influence ethically.",
+      "touches": "Thinking tools only. It touches nothing.",
+      "source": {
+        "name": "coreyhaines31/marketingskills",
+        "repo": "https://github.com/coreyhaines31/marketingskills",
+        "path": "skills/marketing-psychology/"
+      },
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT (© 2025 Corey Haines)"
+      },
+      "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
+      "rawUrl": "https://secondshiftos.com/skills/marketing-psychology.md",
+      "detailUrl": "https://secondshiftos.com/skills/marketing-psychology",
+      "installCommand": "npx skills add coreyhaines31/marketingskills --skill marketing-psychology"
+    },
+    {
+      "slug": "marketing-plan",
+      "name": "Marketing Plan",
+      "shelf": "Marketing strategy",
+      "class": "works-anywhere",
+      "classLabel": "Works anywhere",
+      "description": "An fCMO-level planning process in three phases (research and intake, section-by-section review with you, compile and verify) that outputs one exhaustive, client-specific plan document: executive summary, strategic frame, scored current state, acquisition through revenue, funding-stage unlocks, an operations stack naming which skills and tools execute each move, and explicit open decisions instead of glossed-over gaps.",
+      "capability": "Produces a complete 12-month marketing plan structured by AARRR: strategy, current-state audit, channel moves, 90-day roadmap, budget, and measurement.",
+      "touches": "Reads the materials you provide and writes plan files in a plans folder you control. It publishes nothing without your say-so.",
+      "source": {
+        "name": "coreyhaines31/marketingskills",
+        "repo": "https://github.com/coreyhaines31/marketingskills",
+        "path": "skills/marketing-plan/"
+      },
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT (© 2025 Corey Haines)"
+      },
+      "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
+      "rawUrl": "https://secondshiftos.com/skills/marketing-plan.md",
+      "detailUrl": "https://secondshiftos.com/skills/marketing-plan",
+      "installCommand": "npx skills add coreyhaines31/marketingskills --skill marketing-plan"
+    },
+    {
+      "slug": "marketing-council",
+      "name": "Marketing Council",
+      "shelf": "Marketing strategy",
+      "class": "works-anywhere",
+      "classLabel": "Works anywhere",
+      "description": "Seats three to five advisors whose lenses genuinely conflict, including at least one designated dissenter, applies each one’s published frameworks to your specific case, maps where they disagree and what evidence would settle it, and closes with a chair’s synthesis fitted to your stage. It is labeled a simulation, grounded in what each advisor actually wrote, with no fabricated quotes or invented endorsements.",
+      "capability": "Convenes a simulated board of legendary marketers (Godin, Ogilvy, Schwartz, Dunford, Sharp, and more) to argue your decision from their documented frameworks.",
+      "touches": "A thinking exercise over material you provide. It touches no accounts and executes nothing.",
+      "source": {
+        "name": "coreyhaines31/marketingskills",
+        "repo": "https://github.com/coreyhaines31/marketingskills",
+        "path": "skills/marketing-council/"
+      },
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT (© 2025 Corey Haines)"
+      },
+      "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
+      "rawUrl": "https://secondshiftos.com/skills/marketing-council.md",
+      "detailUrl": "https://secondshiftos.com/skills/marketing-council",
+      "installCommand": "npx skills add coreyhaines31/marketingskills --skill marketing-council"
+    },
+    {
+      "slug": "launch",
+      "name": "Launch Strategy",
+      "shelf": "Marketing strategy",
+      "class": "works-anywhere",
+      "classLabel": "Works anywhere",
+      "description": "Structures launches around the ORB channel framework and a Simple-Lovable-Complete readiness check that names the two failure modes (stealth mode and one-more-feature) before any dates are set. Covers Product Hunt execution, launch-day checklists, and the ongoing rhythm of turning every shipped update into an announcement.",
+      "capability": "Plans product and feature launches that compound: owned, rented, and borrowed channels in a five-phase rollout, with a readiness gate before the mechanics.",
+      "touches": "Plans and drafts in your workspace. Announcements go out through your own channels, by you.",
+      "source": {
+        "name": "coreyhaines31/marketingskills",
+        "repo": "https://github.com/coreyhaines31/marketingskills",
+        "path": "skills/launch/"
+      },
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT (© 2025 Corey Haines)"
+      },
+      "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
+      "rawUrl": "https://secondshiftos.com/skills/launch.md",
+      "detailUrl": "https://secondshiftos.com/skills/launch",
+      "installCommand": "npx skills add coreyhaines31/marketingskills --skill launch"
+    },
+    {
+      "slug": "offers",
+      "name": "Offer Design",
+      "shelf": "Marketing strategy",
+      "class": "works-anywhere",
+      "classLabel": "Works anywhere",
+      "description": "For services, courses, coaching, and high-ticket offers: scores your current offer on the four value levers (dream outcome, perceived likelihood, time delay, effort), audits the six anatomy components, and fixes the binding constraint one iteration at a time with honest lift math. Manipulative scarcity, over-promised guarantees, and bonus inflation are named as patterns not to use.",
+      "capability": "Designs the offer itself: the core deliverable, bonus stack, guarantee, real scarcity, name, and payment structure, diagnosed through the value equation.",
+      "touches": "Advises and drafts offer language in your workspace. Your prices and pages change only when you change them.",
+      "source": {
+        "name": "coreyhaines31/marketingskills",
+        "repo": "https://github.com/coreyhaines31/marketingskills",
+        "path": "skills/offers/"
+      },
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT (© 2025 Corey Haines)"
+      },
+      "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
+      "rawUrl": "https://secondshiftos.com/skills/offers.md",
+      "detailUrl": "https://secondshiftos.com/skills/offers",
+      "installCommand": "npx skills add coreyhaines31/marketingskills --skill offers"
+    },
+    {
+      "slug": "pricing",
+      "name": "Pricing Strategy",
+      "shelf": "Marketing strategy",
+      "class": "works-anywhere",
+      "classLabel": "Works anywhere",
+      "description": "Covers the three pricing axes (packaging, metric, price point), good-better-best tiers, Van Westendorp and MaxDiff research, staggered price-increase rollouts, and a pricing-page teardown that also scores whether AI agents can read and quote your prices. Its day-one advice is refreshingly plain: pick a price you can learn from, and do not anchor on competitors or cost.",
+      "capability": "Sets pricing that captures value: value metric, tier structure, price points, willingness-to-pay research, and how to raise prices without breaking trust.",
+      "touches": "Advises from numbers you provide. It changes no prices and touches no billing system.",
+      "source": {
+        "name": "coreyhaines31/marketingskills",
+        "repo": "https://github.com/coreyhaines31/marketingskills",
+        "path": "skills/pricing/"
+      },
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT (© 2025 Corey Haines)"
+      },
+      "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
+      "rawUrl": "https://secondshiftos.com/skills/pricing.md",
+      "detailUrl": "https://secondshiftos.com/skills/pricing",
+      "installCommand": "npx skills add coreyhaines31/marketingskills --skill pricing"
+    },
+    {
+      "slug": "co-marketing",
+      "name": "Co-Marketing",
+      "shelf": "Marketing strategy",
+      "class": "works-anywhere",
+      "classLabel": "Works anywhere",
+      "description": "Scores potential partners on audience fit, size, brand alignment, and reciprocity, places them in the five partnership types (integrations, reseller, affiliate, co-marketing, marketplaces), and structures the agreement: lead handling, promotion commitments, asset ownership, and metrics both sides will share.",
+      "capability": "Finds co-marketing partners and designs joint campaigns: content swaps, webinars, integration launches, and bundles with companies that share your audience.",
+      "touches": "Research and planning in your workspace. Outreach drafts are yours to send.",
+      "source": {
+        "name": "coreyhaines31/marketingskills",
+        "repo": "https://github.com/coreyhaines31/marketingskills",
+        "path": "skills/co-marketing/"
+      },
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT (© 2025 Corey Haines)"
+      },
+      "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
+      "rawUrl": "https://secondshiftos.com/skills/co-marketing.md",
+      "detailUrl": "https://secondshiftos.com/skills/co-marketing",
+      "installCommand": "npx skills add coreyhaines31/marketingskills --skill co-marketing"
+    },
+    {
+      "slug": "marketing-loops",
+      "name": "Marketing Loops",
+      "shelf": "Marketing strategy",
+      "class": "works-anywhere",
+      "classLabel": "Works anywhere",
+      "description": "A catalog of sixty loop specs (SEO watch, ad fatigue, churn signals, competitor moves, outbound triage, and more) plus the anatomy every loop must have before it is safe to schedule: check cadence matched to signal speed, an acts-when condition, idempotency, and a bail-out. Anything that publishes or spends gets a mandatory human checkpoint by design.",
+      "capability": "Turns one-off marketing tasks into recurring agent-run loops with a cadence, a self-check, memory between runs, and a stopping condition.",
+      "touches": "Designs loop specs for your own agent setup. Scheduling happens in your environment, under your checkpoints.",
+      "source": {
+        "name": "coreyhaines31/marketingskills",
+        "repo": "https://github.com/coreyhaines31/marketingskills",
+        "path": "skills/marketing-loops/"
+      },
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT (© 2025 Corey Haines)"
+      },
+      "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
+      "rawUrl": "https://secondshiftos.com/skills/marketing-loops.md",
+      "detailUrl": "https://secondshiftos.com/skills/marketing-loops",
+      "installCommand": "npx skills add coreyhaines31/marketingskills --skill marketing-loops"
+    },
+    {
+      "slug": "customer-research",
+      "name": "Customer Research",
+      "shelf": "Research",
+      "class": "works-anywhere",
+      "classLabel": "Works anywhere",
+      "description": "Works in three modes (analyze the assets you have, mine public watering holes like Reddit and G2, or go ask with interviews and the PMF survey) and synthesizes with discipline: verbatim quotes over paraphrases, confidence labels on every insight, sample-bias checks, and personas built only from five-plus real data points. Anything it fetches is treated as untrusted data, mined for signal and never obeyed.",
+      "capability": "Finds out what customers actually think: mines interviews, tickets, reviews, and communities, and runs interviews and surveys when no signal exists yet.",
+      "touches": "Analyzes material you provide and public sources you point it at. Interviews and surveys are run by you, with people who agreed to talk.",
+      "source": {
+        "name": "coreyhaines31/marketingskills",
+        "repo": "https://github.com/coreyhaines31/marketingskills",
+        "path": "skills/customer-research/"
+      },
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT (© 2025 Corey Haines)"
+      },
+      "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
+      "rawUrl": "https://secondshiftos.com/skills/customer-research.md",
+      "detailUrl": "https://secondshiftos.com/skills/customer-research",
+      "installCommand": "npx skills add coreyhaines31/marketingskills --skill customer-research"
+    },
+    {
+      "slug": "competitor-profiling",
+      "name": "Competitor Profiling",
+      "shelf": "Research",
+      "class": "works-anywhere",
+      "classLabel": "Works anywhere",
+      "description": "Scrapes each competitor’s key pages and pulls SEO and market data where you have a source connected, saving every raw pull to disk before synthesizing so profiles can be re-run and diffed over time. Claims are kept in three labeled layers (observed, inferred, implication), motives are never stated as fact, and fetched pages are treated as data that may contain embedded instructions to ignore.",
+      "capability": "Turns a list of competitor URLs into structured, dated competitor profiles: positioning, pricing, features, customers, and SEO strength, side by side.",
+      "touches": "Reads public competitor sites and the data tools you connect. It changes nothing on any site.",
+      "source": {
+        "name": "coreyhaines31/marketingskills",
+        "repo": "https://github.com/coreyhaines31/marketingskills",
+        "path": "skills/competitor-profiling/"
+      },
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT (© 2025 Corey Haines)"
+      },
+      "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
+      "rawUrl": "https://secondshiftos.com/skills/competitor-profiling.md",
+      "detailUrl": "https://secondshiftos.com/skills/competitor-profiling",
+      "installCommand": "npx skills add coreyhaines31/marketingskills --skill competitor-profiling"
+    },
+    {
+      "slug": "reverse-engineer-marketing",
+      "name": "Reverse-Engineer Marketing",
+      "shelf": "Research",
+      "class": "works-anywhere",
+      "classLabel": "Works anywhere",
+      "description": "A nine-stage teardown built on public evidence (archives, DNS and certificate logs, ad libraries, job posts, reviews, pricing history) with every finding labeled observed, inferred, or not found, and arithmetic done by script. First-hand steps like signing up or booking a demo happen only with your approval, under your real identity, inside a budget cap you set; it never disguises itself to get past a block.",
+      "capability": "Works out how another company actually grew: a dated log of its moves lined up against its traffic curve, your gap against it, and the plays worth copying.",
+      "touches": "Reads public data sources, some paid ones inside a budget you approve. Accounts or purchases under your name happen only when you say yes, one action at a time.",
+      "source": {
+        "name": "coreyhaines31/marketingskills",
+        "repo": "https://github.com/coreyhaines31/marketingskills",
+        "path": "skills/reverse-engineer-marketing/"
+      },
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT (© 2025 Corey Haines)"
+      },
+      "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
+      "rawUrl": "https://secondshiftos.com/skills/reverse-engineer-marketing.md",
+      "detailUrl": "https://secondshiftos.com/skills/reverse-engineer-marketing",
+      "installCommand": "npx skills add coreyhaines31/marketingskills --skill reverse-engineer-marketing"
+    },
+    {
+      "slug": "cold-email",
+      "name": "Cold Email",
+      "shelf": "Sales & outreach",
+      "class": "works-anywhere",
+      "classLabel": "Works anywhere",
+      "description": "Covers the writing (observation-led structures, boring subject lines, one low-friction ask), the follow-up cadence, and the unglamorous sending discipline: secondary domains only, verified lists, tracking off, opt-out and postal address in every email. It bans the AI tells prospects delete on sight and classifies replies so a human answers the good ones in minutes.",
+      "capability": "Writes B2B cold outbound that gets replies: peer-voiced emails, follow-up sequences, LinkedIn touches, and the deliverability setup that keeps them landing.",
+      "touches": "Drafts in your workspace and advises on setup. Sending runs through your own sending platform, under your domains and your approval.",
+      "source": {
+        "name": "coreyhaines31/marketingskills",
+        "repo": "https://github.com/coreyhaines31/marketingskills",
+        "path": "skills/cold-email/"
+      },
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT (© 2025 Corey Haines)"
+      },
+      "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
+      "rawUrl": "https://secondshiftos.com/skills/cold-email.md",
+      "detailUrl": "https://secondshiftos.com/skills/cold-email",
+      "installCommand": "npx skills add coreyhaines31/marketingskills --skill cold-email"
+    },
+    {
+      "slug": "sales-enablement",
+      "name": "Sales Enablement",
+      "shelf": "Sales & outreach",
+      "class": "works-anywhere",
+      "classLabel": "Works anywhere",
+      "description": "Every asset is built situation-specific (persona, stage, use case) and scannable mid-call, under one evidence rule: claims reps repeat to buyers must be ones they can defend, with competitor facts dated and sourced, hypotheses labeled as hypotheses, and where-you-lose sections included because reps trust documents that admit them. Live-deal objections get a response the rep can say as written, built only from proof that exists.",
+      "capability": "Builds the collateral reps actually use: pitch decks, one-pagers, objection docs, battle cards, demo scripts, ROI calculators, and win-loss analysis.",
+      "touches": "Creates documents in your workspace from your materials. Nothing is sent to any prospect.",
+      "source": {
+        "name": "coreyhaines31/marketingskills",
+        "repo": "https://github.com/coreyhaines31/marketingskills",
+        "path": "skills/sales-enablement/"
+      },
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT (© 2025 Corey Haines)"
+      },
+      "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
+      "rawUrl": "https://secondshiftos.com/skills/sales-enablement.md",
+      "detailUrl": "https://secondshiftos.com/skills/sales-enablement",
+      "installCommand": "npx skills add coreyhaines31/marketingskills --skill sales-enablement"
+    },
+    {
+      "slug": "revops",
+      "name": "RevOps",
+      "shelf": "Sales & outreach",
+      "class": "works-anywhere",
+      "classLabel": "Works anywhere",
+      "description": "Covers stage definitions with entry and exit criteria, fit-plus-engagement scoring (built on observed cohorts and tested on a holdout before it routes real leads), speed-to-lead routing with fallbacks so no lead goes cold, pipeline stage discipline, and the three dashboard views marketing, sales, and executives each need. Define before automate is the operating rule.",
+      "capability": "Designs the systems between marketing and revenue: lead lifecycle stages, scoring, routing, SLAs, pipeline hygiene, and deal-desk rules in your CRM.",
+      "touches": "Designs processes and documents for your CRM. Configuration happens in your systems, by your call.",
+      "source": {
+        "name": "coreyhaines31/marketingskills",
+        "repo": "https://github.com/coreyhaines31/marketingskills",
+        "path": "skills/revops/"
+      },
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT (© 2025 Corey Haines)"
+      },
+      "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
+      "rawUrl": "https://secondshiftos.com/skills/revops.md",
+      "detailUrl": "https://secondshiftos.com/skills/revops",
+      "installCommand": "npx skills add coreyhaines31/marketingskills --skill revops"
+    },
+    {
+      "slug": "emails",
+      "name": "Email Sequences",
+      "shelf": "Email & lifecycle",
+      "class": "works-anywhere",
+      "classLabel": "Works anywhere",
+      "description": "Plans each sequence by job (one email, one job; value before ask) with timing, subject lines, and full body copy per email, coordinated with in-app onboarding instead of duplicating it. It holds a strict no-AI-tells standard: no contrast reveals, no fake \"Re:\" subjects, no stock openers, so subscribers keep reading.",
+      "capability": "Designs lifecycle email sequences that nurture and convert: welcome, nurture, onboarding, re-engagement, and post-purchase flows, written in full.",
+      "touches": "Writes sequences in your workspace. They send from your own email platform when you set them live.",
+      "source": {
+        "name": "coreyhaines31/marketingskills",
+        "repo": "https://github.com/coreyhaines31/marketingskills",
+        "path": "skills/emails/"
+      },
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT (© 2025 Corey Haines)"
+      },
+      "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
+      "rawUrl": "https://secondshiftos.com/skills/emails.md",
+      "detailUrl": "https://secondshiftos.com/skills/emails",
+      "installCommand": "npx skills add coreyhaines31/marketingskills --skill emails"
+    },
+    {
+      "slug": "sms",
+      "name": "SMS Marketing",
+      "shelf": "Email & lifecycle",
+      "class": "works-anywhere",
+      "classLabel": "Works anywhere",
+      "description": "Compliance is the foundation, not a footnote: TCPA express written consent, A2P 10DLC registration, quiet hours, STOP and HELP handling, and consent records, covered before any copy. Then the economics and craft: segmentation because every send costs money, one CTA and one link, sender identity in every message, and discounts held back so the first cart text does not train abandonment.",
+      "capability": "Plans compliant SMS and WhatsApp programs: welcome, cart recovery, post-purchase, and win-back flows that respect the channel and the law.",
+      "touches": "Plans flows and writes copy for the SMS platform you run. Registration and sending are yours, on your numbers.",
+      "source": {
+        "name": "coreyhaines31/marketingskills",
+        "repo": "https://github.com/coreyhaines31/marketingskills",
+        "path": "skills/sms/"
+      },
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT (© 2025 Corey Haines)"
+      },
+      "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
+      "rawUrl": "https://secondshiftos.com/skills/sms.md",
+      "detailUrl": "https://secondshiftos.com/skills/sms",
+      "installCommand": "npx skills add coreyhaines31/marketingskills --skill sms"
+    },
+    {
+      "slug": "cro",
+      "name": "Conversion Rate Optimization",
+      "shelf": "Growth & conversion",
+      "class": "works-anywhere",
+      "classLabel": "Works anywhere",
+      "description": "Analyzes any homepage, landing, pricing, feature, or lead-capture page across value proposition clarity, headline, CTA hierarchy, visual hierarchy, trust signals, objection handling, and friction, in impact order. Recommendations come as implement-now wins, bigger prioritized changes, and A/B test hypotheses with two to three copy alternatives for key elements.",
+      "capability": "Diagnoses why a marketing page or form is not converting and returns prioritized fixes: quick wins, high-impact changes, and tests worth running.",
+      "touches": "Reads your public pages and reports. Your site changes only when you make them.",
+      "source": {
+        "name": "coreyhaines31/marketingskills",
+        "repo": "https://github.com/coreyhaines31/marketingskills",
+        "path": "skills/cro/"
+      },
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT (© 2025 Corey Haines)"
+      },
+      "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
+      "rawUrl": "https://secondshiftos.com/skills/cro.md",
+      "detailUrl": "https://secondshiftos.com/skills/cro",
+      "installCommand": "npx skills add coreyhaines31/marketingskills --skill cro"
+    },
+    {
+      "slug": "signup",
+      "name": "Signup Flow Optimization",
+      "shelf": "Growth & conversion",
+      "class": "works-anywhere",
+      "classLabel": "Works anywhere",
+      "description": "Starts from the discipline that every field costs completions and most data can be collected later, then works the details: single email field, password UX that helps instead of scolding, mobile keyboards and autofill, inline errors that never clear the form, and measurement down to field-level drop-off. Even its enrichment routing keeps account creation separate, so a lookup timeout can never silently reject a real signup.",
+      "capability": "Fixes signup and registration flows that leak: field-by-field friction cuts, social auth, error handling, and the post-submit experience.",
+      "touches": "Audits and redesigns flows on paper and in your codebase, as you direct. It touches no production account system itself.",
+      "source": {
+        "name": "coreyhaines31/marketingskills",
+        "repo": "https://github.com/coreyhaines31/marketingskills",
+        "path": "skills/signup/"
+      },
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT (© 2025 Corey Haines)"
+      },
+      "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
+      "rawUrl": "https://secondshiftos.com/skills/signup.md",
+      "detailUrl": "https://secondshiftos.com/skills/signup",
+      "installCommand": "npx skills add coreyhaines31/marketingskills --skill signup"
+    },
+    {
+      "slug": "popups",
+      "name": "Popups & Overlays",
+      "shelf": "Growth & conversion",
+      "class": "works-anywhere",
+      "classLabel": "Works anywhere",
+      "description": "Covers trigger strategy (scroll, exit intent, click, behavior), popup types from email capture to announcement bars, frequency capping that remembers dismissals, and copy with polite decline options. The respect rules are explicit: easy to close, never trap or trick, no guilt-trip declines, GDPR consent and accessibility handled, and Google’s interstitial guidelines respected.",
+      "capability": "Designs popups, modals, slide-ins, and banners that convert without annoying people or damaging the brand.",
+      "touches": "Designs and specifies popups for your site. Implementation is in your stack.",
+      "source": {
+        "name": "coreyhaines31/marketingskills",
+        "repo": "https://github.com/coreyhaines31/marketingskills",
+        "path": "skills/popups/"
+      },
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT (© 2025 Corey Haines)"
+      },
+      "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
+      "rawUrl": "https://secondshiftos.com/skills/popups.md",
+      "detailUrl": "https://secondshiftos.com/skills/popups",
+      "installCommand": "npx skills add coreyhaines31/marketingskills --skill popups"
+    },
+    {
+      "slug": "paywalls",
+      "name": "Paywalls & Upgrade Screens",
+      "shelf": "Growth & conversion",
+      "class": "works-anywhere",
+      "classLabel": "Works anywhere",
+      "description": "Covers the trigger points (feature gates, usage limits, trial expiration), the screen anatomy from headline to \"not now,\" timing and cool-down rules so prompts never nag, and post-upgrade confirmation. Dark patterns are listed as anti-patterns to avoid: no hidden close buttons, no guilt-trip copy, no fake countdowns.",
+      "capability": "Designs in-app paywalls and upgrade moments that convert free users after they have felt real value, with a clear escape hatch.",
+      "touches": "Designs upgrade flows for your product. Your billing and app code change only when you change them.",
+      "source": {
+        "name": "coreyhaines31/marketingskills",
+        "repo": "https://github.com/coreyhaines31/marketingskills",
+        "path": "skills/paywalls/"
+      },
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT (© 2025 Corey Haines)"
+      },
+      "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
+      "rawUrl": "https://secondshiftos.com/skills/paywalls.md",
+      "detailUrl": "https://secondshiftos.com/skills/paywalls",
+      "installCommand": "npx skills add coreyhaines31/marketingskills --skill paywalls"
+    },
+    {
+      "slug": "onboarding",
+      "name": "Onboarding & Activation",
+      "shelf": "Growth & conversion",
+      "class": "works-anywhere",
+      "classLabel": "Works anywhere",
+      "description": "Defines activation honestly first (an early action, a retention window, cohorts fully observed, correlation never sold as causation), then designs the first session: one goal, do-don’t-show, progress that starts pre-loaded, and email that reinforces the product instead of duplicating it. Stalled users get a defined detection rule and a recovery path, not vibes.",
+      "capability": "Gets new users to the aha moment fast: minimum path to value, checklists, empty states, and re-engagement for users who stall.",
+      "touches": "Designs flows and writes copy in your workspace. Product changes are yours to ship.",
+      "source": {
+        "name": "coreyhaines31/marketingskills",
+        "repo": "https://github.com/coreyhaines31/marketingskills",
+        "path": "skills/onboarding/"
+      },
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT (© 2025 Corey Haines)"
+      },
+      "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
+      "rawUrl": "https://secondshiftos.com/skills/onboarding.md",
+      "detailUrl": "https://secondshiftos.com/skills/onboarding",
+      "installCommand": "npx skills add coreyhaines31/marketingskills --skill onboarding"
+    },
+    {
+      "slug": "ab-testing",
+      "name": "A/B Testing",
+      "shelf": "Growth & conversion",
+      "class": "works-anywhere",
+      "classLabel": "Works anywhere",
+      "description": "Builds tests on a written hypothesis with one variable, a pre-committed sample size, and a primary metric tied to business value, then interprets results with unusual statistical honesty (what a p-value is and is not, why peeking lies, why an inconclusive interval is still information). The program layer adds ICE prioritization, velocity targets, and a playbook where every finished test becomes a reusable pattern.",
+      "capability": "Designs experiments that produce decisions you can trust: hypotheses, sample sizes, guardrail metrics, and an experimentation program that compounds.",
+      "touches": "Plans and analyzes tests. Running them happens in your testing tool, on your traffic.",
+      "source": {
+        "name": "coreyhaines31/marketingskills",
+        "repo": "https://github.com/coreyhaines31/marketingskills",
+        "path": "skills/ab-testing/"
+      },
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT (© 2025 Corey Haines)"
+      },
+      "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
+      "rawUrl": "https://secondshiftos.com/skills/ab-testing.md",
+      "detailUrl": "https://secondshiftos.com/skills/ab-testing",
+      "installCommand": "npx skills add coreyhaines31/marketingskills --skill ab-testing"
+    },
+    {
+      "slug": "lead-magnets",
+      "name": "Lead Magnets",
+      "shelf": "Growth & conversion",
+      "class": "works-anywhere",
+      "classLabel": "Works anywhere",
+      "description": "Chooses the format by stage (awareness education, consideration evaluation, decision implementation help), asks for the minimum fields the value justifies, and plans the landing page, delivery, thank-you page, and promotion as one system with benchmarks per metric. It can even package a course or archive you own as an installable agent skill, with rights checks first.",
+      "capability": "Plans lead magnets people actually trade an email for: checklists, templates, guides, quizzes, and courses, matched to buyer stage and gated honestly.",
+      "touches": "Plans and outlines in your workspace. Capture and delivery run on your site and email tools.",
+      "source": {
+        "name": "coreyhaines31/marketingskills",
+        "repo": "https://github.com/coreyhaines31/marketingskills",
+        "path": "skills/lead-magnets/"
+      },
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT (© 2025 Corey Haines)"
+      },
+      "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
+      "rawUrl": "https://secondshiftos.com/skills/lead-magnets.md",
+      "detailUrl": "https://secondshiftos.com/skills/lead-magnets",
+      "installCommand": "npx skills add coreyhaines31/marketingskills --skill lead-magnets"
+    },
+    {
+      "slug": "referrals",
+      "name": "Referral & Affiliate Programs",
+      "shelf": "Growth & conversion",
+      "class": "works-anywhere",
+      "classLabel": "Works anywhere",
+      "description": "Checks first whether virality can be built into the product before paying for it in rewards, then designs the loop: trigger moments at the aha point, one-click sharing, incentive structures presented honestly, fraud rules, and measurement of referred-customer LTV and churn against your other channels. Review requests follow each platform’s rules, which it checks before proposing incentives.",
+      "capability": "Designs referral and affiliate programs that turn customers into a growth channel, and review programs that earn the ratings AI shortlists trust.",
+      "touches": "Designs the program and drafts its emails. Payouts, tracking, and sending run in your tools.",
+      "source": {
+        "name": "coreyhaines31/marketingskills",
+        "repo": "https://github.com/coreyhaines31/marketingskills",
+        "path": "skills/referrals/"
+      },
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT (© 2025 Corey Haines)"
+      },
+      "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
+      "rawUrl": "https://secondshiftos.com/skills/referrals.md",
+      "detailUrl": "https://secondshiftos.com/skills/referrals",
+      "installCommand": "npx skills add coreyhaines31/marketingskills --skill referrals"
+    },
+    {
+      "slug": "free-tools",
+      "name": "Free Tools Strategy",
+      "shelf": "Growth & conversion",
+      "class": "works-anywhere",
+      "classLabel": "Works anywhere",
+      "description": "Evaluates tool ideas against search demand, audience fit, uniqueness, and the natural path to your product with a scored rubric, then scopes a minimum viable tool: one job done reliably, basic lead capture, and none of the account-creation bloat. It names the pitfalls plainly, including maintenance and security debt for anything that takes user input.",
+      "capability": "Plans free tools as marketing (calculators, graders, generators) that earn leads, links, and search traffic next to your core product.",
+      "touches": "Strategy and scoping in your workspace. The tool itself gets built in your stack.",
+      "source": {
+        "name": "coreyhaines31/marketingskills",
+        "repo": "https://github.com/coreyhaines31/marketingskills",
+        "path": "skills/free-tools/"
+      },
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT (© 2025 Corey Haines)"
+      },
+      "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
+      "rawUrl": "https://secondshiftos.com/skills/free-tools.md",
+      "detailUrl": "https://secondshiftos.com/skills/free-tools",
+      "installCommand": "npx skills add coreyhaines31/marketingskills --skill free-tools"
+    },
+    {
+      "slug": "churn-prevention",
+      "name": "Churn Prevention",
+      "shelf": "Growth & conversion",
+      "class": "works-anywhere",
+      "classLabel": "Works anywhere",
+      "description": "Designs the cancel flow (one-question exit survey, one primary offer matched to the reason, confirmation that keeps \"continue cancelling\" visible, because dark patterns are called out by name), proactive retention from health scores built carefully on partial data, and the full dunning stack: pre-dunning card alerts, smart retries by decline type, and a four-email recovery sequence with benchmarks.",
+      "capability": "Reduces churn on both fronts: cancel flows with reason-matched save offers, and dunning that recovers failed payments before they cancel anyone.",
+      "touches": "Designs flows and sequences for your billing stack. Charges, retries, and cancellations stay in your systems.",
+      "source": {
+        "name": "coreyhaines31/marketingskills",
+        "repo": "https://github.com/coreyhaines31/marketingskills",
+        "path": "skills/churn-prevention/"
+      },
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT (© 2025 Corey Haines)"
+      },
+      "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
+      "rawUrl": "https://secondshiftos.com/skills/churn-prevention.md",
+      "detailUrl": "https://secondshiftos.com/skills/churn-prevention",
+      "installCommand": "npx skills add coreyhaines31/marketingskills --skill churn-prevention"
+    },
+    {
+      "slug": "ads",
+      "name": "Paid Ads",
+      "shelf": "Ads & measurement",
+      "class": "works-anywhere",
+      "classLabel": "Works anywhere",
+      "description": "Starts from your product context (targets, floors, what a real conversion is, and what may not change without approval), then works platform playbooks for structure, creative-first audience strategy, retargeting with different offers instead of the same one louder, and a weekly operating check that ends in exactly one call: hold, fix, test, or investigate. It labels unavailable inputs MISSING instead of estimating them, and never sums conversions across attribution windows.",
+      "capability": "Runs paid advertising with discipline across Google, Meta, LinkedIn, X, and TikTok: structure, targeting, budgets, kill and scale rules, and honest reporting.",
+      "touches": "Works through the ad accounts you connect, read-first. Changes to live campaigns are drafted as current state, change, expected effect, and rollback, and applied only with your explicit approval.",
+      "source": {
+        "name": "coreyhaines31/marketingskills",
+        "repo": "https://github.com/coreyhaines31/marketingskills",
+        "path": "skills/ads/"
+      },
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT (© 2025 Corey Haines)"
+      },
+      "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
+      "caveat": "This skill can read connected ad accounts to plan and audit. Its own rule, printed in the file, is draft-first on live accounts: nothing changes without your explicit approval.",
+      "rawUrl": "https://secondshiftos.com/skills/ads.md",
+      "detailUrl": "https://secondshiftos.com/skills/ads",
+      "installCommand": "npx skills add coreyhaines31/marketingskills --skill ads"
+    },
+    {
+      "slug": "ad-creative",
+      "name": "Ad Creative",
+      "shelf": "Ads & measurement",
+      "class": "works-anywhere",
+      "classLabel": "Works anywhere",
+      "description": "Works from grounded inputs only: your winning ads, real customer reviews, and real ad comments, with every concept citing its source. Its hard rule is printed in the file: no invented claims, stats, or testimonials, ever, and if the inputs folder is empty it stops and asks instead of generating ungrounded concepts. Iterations analyze your real performance data to double down on winning patterns.",
+      "capability": "Generates and iterates ad creative at scale: headlines, primary text, and full variations for Google, Meta, LinkedIn, TikTok, and X, checked against platform specs.",
+      "touches": "Writes creative in your workspace from materials you provide. Uploading and launching happen in your ad accounts.",
+      "source": {
+        "name": "coreyhaines31/marketingskills",
+        "repo": "https://github.com/coreyhaines31/marketingskills",
+        "path": "skills/ad-creative/"
+      },
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT (© 2025 Corey Haines)"
+      },
+      "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
+      "rawUrl": "https://secondshiftos.com/skills/ad-creative.md",
+      "detailUrl": "https://secondshiftos.com/skills/ad-creative",
+      "installCommand": "npx skills add coreyhaines31/marketingskills --skill ad-creative"
+    },
+    {
+      "slug": "analytics",
+      "name": "Analytics Tracking",
+      "shelf": "Ads & measurement",
+      "class": "works-anywhere",
+      "classLabel": "Works anywhere",
+      "description": "Builds the tracking plan backwards from the decisions the data must inform, with consistent object-action event names and a validation checklist. Its measurement rules are strict: totals are computed from row-level data, never eyeballed; rates divide matching closed windows only, with pending cohorts labeled pending; and no personal data ever goes into a UTM or an event property.",
+      "capability": "Sets up analytics tracking that supports real decisions: tracking plans, event naming, GA4 and Tag Manager implementation, and UTM discipline.",
+      "touches": "Produces tracking plans and implementation guidance for your stack. Your analytics accounts change when you implement.",
+      "source": {
+        "name": "coreyhaines31/marketingskills",
+        "repo": "https://github.com/coreyhaines31/marketingskills",
+        "path": "skills/analytics/"
+      },
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT (© 2025 Corey Haines)"
+      },
+      "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
+      "rawUrl": "https://secondshiftos.com/skills/analytics.md",
+      "detailUrl": "https://secondshiftos.com/skills/analytics",
+      "installCommand": "npx skills add coreyhaines31/marketingskills --skill analytics"
+    },
+    {
+      "slug": "attribution",
+      "name": "Attribution",
+      "shelf": "Ads & measurement",
+      "class": "works-anywhere",
+      "classLabel": "Works anywhere",
+      "description": "Treats attribution as directional, never truth: every model is an opinion, platform-reported conversions are never summed, and one source of truth (usually the CRM) defines the count while the rest explain it. The build track stitches anonymous browsing to conversions with a fail-closed anonymity guard: only anonymous IDs are ever passed along, anything that looks like personal data is rejected, and ambiguous identity sends nothing.",
+      "capability": "Answers which marketing actually drives revenue: chooses attribution models, reconciles dashboards that disagree, and can instrument first-party attribution you own.",
+      "touches": "Advises, and can specify instrumentation for sites you control. It reads your dashboards; it does not move money between channels.",
+      "source": {
+        "name": "coreyhaines31/marketingskills",
+        "repo": "https://github.com/coreyhaines31/marketingskills",
+        "path": "skills/attribution/"
+      },
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT (© 2025 Corey Haines)"
+      },
+      "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
+      "rawUrl": "https://secondshiftos.com/skills/attribution.md",
+      "detailUrl": "https://secondshiftos.com/skills/attribution",
+      "installCommand": "npx skills add coreyhaines31/marketingskills --skill attribution"
+    },
+    {
+      "slug": "conversion-tracking",
+      "name": "Conversion Tracking",
+      "shelf": "Ads & measurement",
+      "class": "works-anywhere",
+      "classLabel": "Works anywhere",
+      "description": "Works from one distinction (lead moments live in the browser and are easy to fire wrong; purchases live in the order record) and one rule: the job is not done until a test conversion demonstrably arrived, or what remains unverified is stated plainly. It fires only on confirmed success, labels every finding observed, reported, or inferred, diagnoses before changing anything, and never acts on a live site or account you have not named in the conversation.",
+      "capability": "Sets up and audits conversion tracking that provably works: form, booking, chat, call, signup, and purchase conversions reaching GA4 and the ad platforms.",
+      "touches": "Audits and specifies setups for your sites and accounts, and verifies with test conversions you approve. Publishing changes to live containers is your call.",
+      "source": {
+        "name": "coreyhaines31/marketingskills",
+        "repo": "https://github.com/coreyhaines31/marketingskills",
+        "path": "skills/conversion-tracking/"
+      },
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT (© 2025 Corey Haines)"
+      },
+      "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
+      "rawUrl": "https://secondshiftos.com/skills/conversion-tracking.md",
+      "detailUrl": "https://secondshiftos.com/skills/conversion-tracking",
+      "installCommand": "npx skills add coreyhaines31/marketingskills --skill conversion-tracking"
+    },
+    {
+      "slug": "aso",
+      "name": "App Store Optimization",
+      "shelf": "Ads & measurement",
+      "class": "works-anywhere",
+      "classLabel": "Works anywhere",
+      "description": "Fetches the live public listing, scores six weighted dimensions (title, description, visuals, ratings, freshness, conversion signals), and adjusts the bar honestly: a household-name app is not docked for brand choices a challenger would be. Every recommendation is specific with character counts, and what cannot be assessed without paid tools is flagged instead of guessed. Listings and reviews are treated as untrusted data throughout.",
+      "capability": "Audits App Store and Google Play listings field by field and scores them, with fixes ranked by impact for your app’s actual maturity tier.",
+      "touches": "Reads public store listings and reports. Listing changes happen in your store consoles.",
+      "source": {
+        "name": "coreyhaines31/marketingskills",
+        "repo": "https://github.com/coreyhaines31/marketingskills",
+        "path": "skills/aso/"
+      },
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT (© 2025 Corey Haines)"
+      },
+      "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
+      "rawUrl": "https://secondshiftos.com/skills/aso.md",
+      "detailUrl": "https://secondshiftos.com/skills/aso",
+      "installCommand": "npx skills add coreyhaines31/marketingskills --skill aso"
+    },
+    {
+      "slug": "directory-submissions",
+      "name": "Directory Submissions",
+      "shelf": "Ads & measurement",
+      "class": "works-anywhere",
+      "classLabel": "Works anywhere",
+      "description": "Insists on foundation before submission (destination pages live and indexed, real screenshots, pricing and policy pages in place), varies positioning by directory audience instead of copy-pasting, and verifies the actual backlink on each live listing rather than trusting a submission receipt. Its safety gate is explicit: human approval before every outward step, and directory pages are treated as untrusted data.",
+      "capability": "Builds the directory foundation of a launch: the right startup, SaaS, AI, and review directories, in tier order, with positioning written per directory type.",
+      "touches": "Plans, writes listing copy, and tracks submissions in your workspace. Accounts and submissions happen with your approval, one step at a time.",
+      "source": {
+        "name": "coreyhaines31/marketingskills",
+        "repo": "https://github.com/coreyhaines31/marketingskills",
+        "path": "skills/directory-submissions/"
+      },
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT (© 2025 Corey Haines)"
+      },
+      "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
+      "rawUrl": "https://secondshiftos.com/skills/directory-submissions.md",
+      "detailUrl": "https://secondshiftos.com/skills/directory-submissions",
+      "installCommand": "npx skills add coreyhaines31/marketingskills --skill directory-submissions"
+    },
+    {
+      "slug": "build-a-campaign",
+      "name": "Build a Campaign",
+      "shelf": "Campaigns",
+      "class": "plugs-in",
+      "classLabel": "Plugs into Second Shift",
+      "description": "A first-party Second Shift skill for local businesses. It builds the whole campaign as one pack the owner approves before anything sends: the audience picked from the owner’s own leads, the offer framed in plain words, the announcement, follow-ups, and last call written in full, a QR hook, and a send calendar with early-stop conditions. Second Shift provides the pipe (leads, analytics summary, QR codes) inside the permissions the owner granted; the writing, the calendar, and all sending happen in the owner’s own tools.",
+      "capability": "Turns a business, an offer, and a goal into a complete campaign pack: the audience, the framed offer, every message written in full, a tracked QR hook, and a send calendar, ready for the owner’s approval.",
+      "touches": "Reads the owner’s leads and analytics through Second Shift only inside the owner’s granted permissions, and can mint a QR code with the owner’s approval. It sends nothing itself; sending happens in the owner’s own tools after the pack is approved.",
+      "source": {
+        "name": "Second Shift",
+        "repo": "https://secondshiftos.com/skills",
+        "path": "Written for this library"
+      },
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT"
+      },
+      "review": "First-party: written and maintained by Second Shift.",
+      "rawUrl": "https://secondshiftos.com/skills/build-a-campaign.md",
+      "detailUrl": "https://secondshiftos.com/skills/build-a-campaign",
+      "installCommand": "npx skills add https://secondshiftos.com/skills/build-a-campaign.md"
+    },
+    {
+      "slug": "social-media-scheduling",
+      "name": "Social Media Scheduling",
+      "shelf": "Social media",
+      "class": "works-anywhere",
+      "classLabel": "Works anywhere",
+      "description": "A first-party Second Shift skill for local businesses that want steady Facebook, Instagram, or X posting without handing an agent the keys. The agent prepares the whole week (calendar, full captions in the owner’s voice, images sized per surface and checked by eye, names spelled letter by letter), the owner reviews the pack once, and only then does anything get scheduled, in the platforms’ own native tools on the owner’s accounts.",
+      "capability": "Builds a week of social posts as one review-ready pack: the calendar, every caption drafted in the owner’s voice, and every image sized for its surface.",
+      "touches": "Works only in the owner’s own files and platform accounts. It posts and schedules nothing before the owner’s review, and schedules only through the platforms’ own native tools.",
+      "source": {
+        "name": "Second Shift",
+        "repo": "https://secondshiftos.com/skills",
+        "path": "Written for this library"
+      },
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT"
+      },
+      "review": "First-party: written and maintained by Second Shift.",
+      "rawUrl": "https://secondshiftos.com/skills/social-media-scheduling.md",
+      "detailUrl": "https://secondshiftos.com/skills/social-media-scheduling",
+      "installCommand": "npx skills add https://secondshiftos.com/skills/social-media-scheduling.md"
+    },
+    {
+      "slug": "research",
+      "name": "Research",
+      "shelf": "Research",
+      "class": "works-anywhere",
+      "classLabel": "Works anywhere",
+      "description": "Delegates the reading legwork to a background agent so you keep working: the agent follows every claim back to the source that owns it, writes the findings to a single Markdown file with each claim cited, and saves it where your project already keeps such notes. A secondary write-up of a source is explicitly not good enough.",
+      "capability": "Investigates a question against primary sources (official docs, specs, source code, first-party APIs) and files the findings as a cited Markdown note.",
+      "touches": "Reads public primary sources and writes one findings file in your project. It touches no accounts.",
+      "source": {
+        "name": "mattpocock/skills",
+        "repo": "https://github.com/mattpocock/skills",
+        "path": "skills/engineering/research/"
+      },
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT (© 2026 Matt Pocock)"
+      },
+      "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
+      "rawUrl": "https://secondshiftos.com/skills/research.md",
+      "detailUrl": "https://secondshiftos.com/skills/research",
+      "installCommand": "npx skills add mattpocock/skills --skill research"
+    },
+    {
+      "slug": "brainstorming",
+      "name": "Brainstorming",
+      "shelf": "Building & planning",
+      "class": "works-anywhere",
+      "classLabel": "Works anywhere",
+      "description": "A pre-build discipline for features, projects, and plans of any kind. It digs into your existing context before asking anything, asks one question at a time only when the answer changes what gets built, lays out two or three real approaches with a recommendation, and writes a short or full design doc. A hard gate holds all building until you approve that doc, with two honest exceptions: work you opted out of questioning, and throwaway spikes you asked for.",
+      "capability": "Finds out what you actually want before anything gets built: questions that surface the why, approaches with trade-offs, and a design doc you approve first.",
+      "touches": "Conversation and one design document in your project. It builds nothing before your approval, by design.",
+      "source": {
+        "name": "obra/superpowers",
+        "repo": "https://github.com/obra/superpowers",
+        "path": "skills/brainstorming/"
+      },
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT (© 2025 Jesse Vincent)"
+      },
+      "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
+      "rawUrl": "https://secondshiftos.com/skills/brainstorming.md",
+      "detailUrl": "https://secondshiftos.com/skills/brainstorming",
+      "installCommand": "npx skills add obra/superpowers --skill brainstorming"
+    }
+  ]
+}

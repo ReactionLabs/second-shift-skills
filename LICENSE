@@ -1,0 +1,73 @@
+# License and attribution
+
+Each skill in this repository is licensed under its own license, held by
+its own authors. This file records the attribution for every skill so the
+mirror never strips it. The full license text for mirrored skills lives
+in their upstream repositories, linked below.
+
+- **Find Second Shift Skills** (`find-second-shift-skills/SKILL.md`) — License: MIT (MIT). Source: Second Shift, https://secondshiftos.com/skills, path `Written for this library`.
+- **Agent Reach** (`agent-reach/SKILL.md`) — License: MIT (© 2025 Agent Eyes) (MIT). Source: Panniantong/Agent-Reach, https://github.com/Panniantong/Agent-Reach, path `agent_reach/skill/ (English edition)`.
+- **Prospecting** (`prospecting/SKILL.md`) — License: MIT (© 2025 Corey Haines) (MIT). Source: coreyhaines31/marketingskills, https://github.com/coreyhaines31/marketingskills, path `skills/prospecting/`.
+- **Frontend Design** (`frontend-design/SKILL.md`) — License: Apache License 2.0 (the skill’s own LICENSE.txt) (Apache-2.0). Source: anthropics/skills, https://github.com/anthropics/skills, path `skills/frontend-design/`.
+- **Design Taste (Frontend)** (`design-taste-frontend/SKILL.md`) — License: MIT (© 2026 Leonxlnx) (MIT). Source: Leonxlnx/taste-skill, https://github.com/Leonxlnx/taste-skill, path `skills/taste-skill/`.
+- **Design Engineering** (`emil-design-eng/SKILL.md`) — License: MIT (MIT). Source: emilkowalski/skills, https://github.com/emilkowalski/skills, path `skills/emil-design-eng/`.
+- **SEO Audit** (`seo-audit/SKILL.md`) — License: MIT (© 2025 Corey Haines) (MIT). Source: coreyhaines31/marketingskills, https://github.com/coreyhaines31/marketingskills, path `skills/seo-audit/`.
+- **Social Media** (`social/SKILL.md`) — License: MIT (© 2025 Corey Haines) (MIT). Source: coreyhaines31/marketingskills, https://github.com/coreyhaines31/marketingskills, path `skills/social/`.
+- **Video Production** (`video/SKILL.md`) — License: MIT (© 2025 Corey Haines) (MIT). Source: coreyhaines31/marketingskills, https://github.com/coreyhaines31/marketingskills, path `skills/video/`.
+- **Community Marketing** (`community-marketing/SKILL.md`) — License: MIT (© 2025 Corey Haines) (MIT). Source: coreyhaines31/marketingskills, https://github.com/coreyhaines31/marketingskills, path `skills/community-marketing/`.
+- **Influencer Marketing** (`influencer-marketing/SKILL.md`) — License: MIT (© 2025 Corey Haines) (MIT). Source: coreyhaines31/marketingskills, https://github.com/coreyhaines31/marketingskills, path `skills/influencer-marketing/`.
+- **Public Relations** (`public-relations/SKILL.md`) — License: MIT (© 2025 Corey Haines) (MIT). Source: coreyhaines31/marketingskills, https://github.com/coreyhaines31/marketingskills, path `skills/public-relations/`.
+- **Event Marketing** (`events/SKILL.md`) — License: MIT (© 2025 Corey Haines) (MIT). Source: coreyhaines31/marketingskills, https://github.com/coreyhaines31/marketingskills, path `skills/events/`.
+- **Content Strategy** (`content-strategy/SKILL.md`) — License: MIT (© 2025 Corey Haines) (MIT). Source: coreyhaines31/marketingskills, https://github.com/coreyhaines31/marketingskills, path `skills/content-strategy/`.
+- **Copywriting** (`copywriting/SKILL.md`) — License: MIT (© 2025 Corey Haines) (MIT). Source: coreyhaines31/marketingskills, https://github.com/coreyhaines31/marketingskills, path `skills/copywriting/`.
+- **Copy Editing** (`copy-editing/SKILL.md`) — License: MIT (© 2025 Corey Haines) (MIT). Source: coreyhaines31/marketingskills, https://github.com/coreyhaines31/marketingskills, path `skills/copy-editing/`.
+- **AI SEO** (`ai-seo/SKILL.md`) — License: MIT (© 2025 Corey Haines) (MIT). Source: coreyhaines31/marketingskills, https://github.com/coreyhaines31/marketingskills, path `skills/ai-seo/`.
+- **Programmatic SEO** (`programmatic-seo/SKILL.md`) — License: MIT (© 2025 Corey Haines) (MIT). Source: coreyhaines31/marketingskills, https://github.com/coreyhaines31/marketingskills, path `skills/programmatic-seo/`.
+- **Link Building** (`link-building/SKILL.md`) — License: MIT (© 2025 Corey Haines) (MIT). Source: coreyhaines31/marketingskills, https://github.com/coreyhaines31/marketingskills, path `skills/link-building/`.
+- **Schema Markup** (`schema/SKILL.md`) — License: MIT (© 2025 Corey Haines) (MIT). Source: coreyhaines31/marketingskills, https://github.com/coreyhaines31/marketingskills, path `skills/schema/`.
+- **Site Architecture** (`site-architecture/SKILL.md`) — License: MIT (© 2025 Corey Haines) (MIT). Source: coreyhaines31/marketingskills, https://github.com/coreyhaines31/marketingskills, path `skills/site-architecture/`.
+- **Competitor Comparison Pages** (`competitors/SKILL.md`) — License: MIT (© 2025 Corey Haines) (MIT). Source: coreyhaines31/marketingskills, https://github.com/coreyhaines31/marketingskills, path `skills/competitors/`.
+- **Marketing Images** (`image/SKILL.md`) — License: MIT (© 2025 Corey Haines) (MIT). Source: coreyhaines31/marketingskills, https://github.com/coreyhaines31/marketingskills, path `skills/image/`.
+- **Product Marketing Context** (`product-marketing/SKILL.md`) — License: MIT (© 2025 Corey Haines) (MIT). Source: coreyhaines31/marketingskills, https://github.com/coreyhaines31/marketingskills, path `skills/product-marketing/`.
+- **Marketing Ideas** (`marketing-ideas/SKILL.md`) — License: MIT (© 2025 Corey Haines) (MIT). Source: coreyhaines31/marketingskills, https://github.com/coreyhaines31/marketingskills, path `skills/marketing-ideas/`.
+- **Marketing Psychology** (`marketing-psychology/SKILL.md`) — License: MIT (© 2025 Corey Haines) (MIT). Source: coreyhaines31/marketingskills, https://github.com/coreyhaines31/marketingskills, path `skills/marketing-psychology/`.
+- **Marketing Plan** (`marketing-plan/SKILL.md`) — License: MIT (© 2025 Corey Haines) (MIT). Source: coreyhaines31/marketingskills, https://github.com/coreyhaines31/marketingskills, path `skills/marketing-plan/`.
+- **Marketing Council** (`marketing-council/SKILL.md`) — License: MIT (© 2025 Corey Haines) (MIT). Source: coreyhaines31/marketingskills, https://github.com/coreyhaines31/marketingskills, path `skills/marketing-council/`.
+- **Launch Strategy** (`launch/SKILL.md`) — License: MIT (© 2025 Corey Haines) (MIT). Source: coreyhaines31/marketingskills, https://github.com/coreyhaines31/marketingskills, path `skills/launch/`.
+- **Offer Design** (`offers/SKILL.md`) — License: MIT (© 2025 Corey Haines) (MIT). Source: coreyhaines31/marketingskills, https://github.com/coreyhaines31/marketingskills, path `skills/offers/`.
+- **Pricing Strategy** (`pricing/SKILL.md`) — License: MIT (© 2025 Corey Haines) (MIT). Source: coreyhaines31/marketingskills, https://github.com/coreyhaines31/marketingskills, path `skills/pricing/`.
+- **Co-Marketing** (`co-marketing/SKILL.md`) — License: MIT (© 2025 Corey Haines) (MIT). Source: coreyhaines31/marketingskills, https://github.com/coreyhaines31/marketingskills, path `skills/co-marketing/`.
+- **Marketing Loops** (`marketing-loops/SKILL.md`) — License: MIT (© 2025 Corey Haines) (MIT). Source: coreyhaines31/marketingskills, https://github.com/coreyhaines31/marketingskills, path `skills/marketing-loops/`.
+- **Customer Research** (`customer-research/SKILL.md`) — License: MIT (© 2025 Corey Haines) (MIT). Source: coreyhaines31/marketingskills, https://github.com/coreyhaines31/marketingskills, path `skills/customer-research/`.
+- **Competitor Profiling** (`competitor-profiling/SKILL.md`) — License: MIT (© 2025 Corey Haines) (MIT). Source: coreyhaines31/marketingskills, https://github.com/coreyhaines31/marketingskills, path `skills/competitor-profiling/`.
+- **Reverse-Engineer Marketing** (`reverse-engineer-marketing/SKILL.md`) — License: MIT (© 2025 Corey Haines) (MIT). Source: coreyhaines31/marketingskills, https://github.com/coreyhaines31/marketingskills, path `skills/reverse-engineer-marketing/`.
+- **Cold Email** (`cold-email/SKILL.md`) — License: MIT (© 2025 Corey Haines) (MIT). Source: coreyhaines31/marketingskills, https://github.com/coreyhaines31/marketingskills, path `skills/cold-email/`.
+- **Sales Enablement** (`sales-enablement/SKILL.md`) — License: MIT (© 2025 Corey Haines) (MIT). Source: coreyhaines31/marketingskills, https://github.com/coreyhaines31/marketingskills, path `skills/sales-enablement/`.
+- **RevOps** (`revops/SKILL.md`) — License: MIT (© 2025 Corey Haines) (MIT). Source: coreyhaines31/marketingskills, https://github.com/coreyhaines31/marketingskills, path `skills/revops/`.
+- **Email Sequences** (`emails/SKILL.md`) — License: MIT (© 2025 Corey Haines) (MIT). Source: coreyhaines31/marketingskills, https://github.com/coreyhaines31/marketingskills, path `skills/emails/`.
+- **SMS Marketing** (`sms/SKILL.md`) — License: MIT (© 2025 Corey Haines) (MIT). Source: coreyhaines31/marketingskills, https://github.com/coreyhaines31/marketingskills, path `skills/sms/`.
+- **Conversion Rate Optimization** (`cro/SKILL.md`) — License: MIT (© 2025 Corey Haines) (MIT). Source: coreyhaines31/marketingskills, https://github.com/coreyhaines31/marketingskills, path `skills/cro/`.
+- **Signup Flow Optimization** (`signup/SKILL.md`) — License: MIT (© 2025 Corey Haines) (MIT). Source: coreyhaines31/marketingskills, https://github.com/coreyhaines31/marketingskills, path `skills/signup/`.
+- **Popups & Overlays** (`popups/SKILL.md`) — License: MIT (© 2025 Corey Haines) (MIT). Source: coreyhaines31/marketingskills, https://github.com/coreyhaines31/marketingskills, path `skills/popups/`.
+- **Paywalls & Upgrade Screens** (`paywalls/SKILL.md`) — License: MIT (© 2025 Corey Haines) (MIT). Source: coreyhaines31/marketingskills, https://github.com/coreyhaines31/marketingskills, path `skills/paywalls/`.
+- **Onboarding & Activation** (`onboarding/SKILL.md`) — License: MIT (© 2025 Corey Haines) (MIT). Source: coreyhaines31/marketingskills, https://github.com/coreyhaines31/marketingskills, path `skills/onboarding/`.
+- **A/B Testing** (`ab-testing/SKILL.md`) — License: MIT (© 2025 Corey Haines) (MIT). Source: coreyhaines31/marketingskills, https://github.com/coreyhaines31/marketingskills, path `skills/ab-testing/`.
+- **Lead Magnets** (`lead-magnets/SKILL.md`) — License: MIT (© 2025 Corey Haines) (MIT). Source: coreyhaines31/marketingskills, https://github.com/coreyhaines31/marketingskills, path `skills/lead-magnets/`.
+- **Referral & Affiliate Programs** (`referrals/SKILL.md`) — License: MIT (© 2025 Corey Haines) (MIT). Source: coreyhaines31/marketingskills, https://github.com/coreyhaines31/marketingskills, path `skills/referrals/`.
+- **Free Tools Strategy** (`free-tools/SKILL.md`) — License: MIT (© 2025 Corey Haines) (MIT). Source: coreyhaines31/marketingskills, https://github.com/coreyhaines31/marketingskills, path `skills/free-tools/`.
+- **Churn Prevention** (`churn-prevention/SKILL.md`) — License: MIT (© 2025 Corey Haines) (MIT). Source: coreyhaines31/marketingskills, https://github.com/coreyhaines31/marketingskills, path `skills/churn-prevention/`.
+- **Paid Ads** (`ads/SKILL.md`) — License: MIT (© 2025 Corey Haines) (MIT). Source: coreyhaines31/marketingskills, https://github.com/coreyhaines31/marketingskills, path `skills/ads/`.
+- **Ad Creative** (`ad-creative/SKILL.md`) — License: MIT (© 2025 Corey Haines) (MIT). Source: coreyhaines31/marketingskills, https://github.com/coreyhaines31/marketingskills, path `skills/ad-creative/`.
+- **Analytics Tracking** (`analytics/SKILL.md`) — License: MIT (© 2025 Corey Haines) (MIT). Source: coreyhaines31/marketingskills, https://github.com/coreyhaines31/marketingskills, path `skills/analytics/`.
+- **Attribution** (`attribution/SKILL.md`) — License: MIT (© 2025 Corey Haines) (MIT). Source: coreyhaines31/marketingskills, https://github.com/coreyhaines31/marketingskills, path `skills/attribution/`.
+- **Conversion Tracking** (`conversion-tracking/SKILL.md`) — License: MIT (© 2025 Corey Haines) (MIT). Source: coreyhaines31/marketingskills, https://github.com/coreyhaines31/marketingskills, path `skills/conversion-tracking/`.
+- **App Store Optimization** (`aso/SKILL.md`) — License: MIT (© 2025 Corey Haines) (MIT). Source: coreyhaines31/marketingskills, https://github.com/coreyhaines31/marketingskills, path `skills/aso/`.
+- **Directory Submissions** (`directory-submissions/SKILL.md`) — License: MIT (© 2025 Corey Haines) (MIT). Source: coreyhaines31/marketingskills, https://github.com/coreyhaines31/marketingskills, path `skills/directory-submissions/`.
+- **Build a Campaign** (`build-a-campaign/SKILL.md`) — License: MIT (MIT). Source: Second Shift, https://secondshiftos.com/skills, path `Written for this library`.
+- **Social Media Scheduling** (`social-media-scheduling/SKILL.md`) — License: MIT (MIT). Source: Second Shift, https://secondshiftos.com/skills, path `Written for this library`.
+- **Research** (`research/SKILL.md`) — License: MIT (© 2026 Matt Pocock) (MIT). Source: mattpocock/skills, https://github.com/mattpocock/skills, path `skills/engineering/research/`.
+- **Brainstorming** (`brainstorming/SKILL.md`) — License: MIT (© 2025 Jesse Vincent) (MIT). Source: obra/superpowers, https://github.com/obra/superpowers, path `skills/brainstorming/`.
+
+First-party skills (source: Second Shift) are MIT, (c) Second Shift.
+Mirrored files are byte-identical to the upstream files reviewed on
+2026-11-06; upstream copyrights remain with their holders.
