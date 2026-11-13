@@ -1,13 +1,13 @@
 {
   "name": "Second Shift Skills Library",
-  "version": "1.0.0",
-  "updated": "2026-11-06",
+  "version": "1.1.0",
+  "updated": "2026-11-13",
   "home": "https://secondshiftos.com/skills",
   "about": "A free, open library of agent skills hosted by Second Shift. No account, no paywall. Each entry states its class and its what-it-can-touch line. A skill teaches an agent how to do something; it never grants permission to do it. Check the license field on each entry before redistributing.",
   "guide": {
     "slug": "find-second-shift-skills",
     "rawUrl": "https://secondshiftos.com/skills/find-second-shift-skills.md",
-    "note": "Fetch this skill first; it teaches the library’s own conventions."
+    "note": "Fetch this skill first; it teaches the library\u2019s own conventions."
   },
   "skills": [
     {
@@ -16,9 +16,9 @@
       "shelf": "Start here",
       "class": "second-shift",
       "classLabel": "From Second Shift",
-      "description": "The library’s own guide skill, written by Second Shift. It teaches an agent to read the public index (one JSON document), choose a skill by its description, class, and what-it-touches line, and fetch the raw SKILL.md from its stable URL — no account, no sign-in. It also states the library’s ground rule: a skill teaches an agent how to do something; it never grants permission to do it.",
+      "description": "The library\u2019s own guide skill, written by Second Shift. It teaches an agent to read the public index (one JSON document), choose a skill by its description, class, and what-it-touches line, and fetch the raw SKILL.md from its stable URL \u2014 no account, no sign-in. It also states the library\u2019s ground rule: a skill teaches an agent how to do something; it never grants permission to do it.",
       "capability": "Teaches any agent to use this library: read the index, pick the skill that fits the job, and fetch its SKILL.md.",
-      "touches": "Reads this library’s index; touches nothing of yours.",
+      "touches": "Reads this library\u2019s index; touches nothing of yours.",
       "source": {
         "name": "Second Shift",
         "repo": "https://secondshiftos.com/skills",
@@ -49,7 +49,7 @@
       },
       "license": {
         "spdx": "MIT",
-        "name": "MIT (© 2025 Agent Eyes)"
+        "name": "MIT (\u00a9 2025 Agent Eyes)"
       },
       "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
       "caveat": "What you get here is the skill file itself. Several of its channels connect through a companion command-line tool, and the channels that read through your own browser logins (X, Reddit, Instagram) are a separate opt-in. They are not part of this download and nothing here enables them.",
@@ -63,7 +63,7 @@
       "shelf": "Prospecting & lead finding",
       "class": "works-anywhere",
       "classLabel": "Works anywhere",
-      "description": "An expert system for building qualified prospect lists across four motions: B2B SaaS, general B2B, local small businesses, and early-stage demand-signal discovery — finding first customers from public pain signals, each with a cited source. It covers audience definition, list building from licensed data sources, qualification signals, enrichment, account research, and email verification before anything reaches a sequence. It never scrapes LinkedIn.",
+      "description": "An expert system for building qualified prospect lists across four motions: B2B SaaS, general B2B, local small businesses, and early-stage demand-signal discovery \u2014 finding first customers from public pain signals, each with a cited source. It covers audience definition, list building from licensed data sources, qualification signals, enrichment, account research, and email verification before anything reaches a sequence. It never scrapes LinkedIn.",
       "capability": "Turns an ideal-customer profile into a verified, scored prospect list: B2B, local small businesses, and first customers found from public demand signals.",
       "touches": "Researches public sources and hands you a list. Verifies emails before outreach and never sends anything itself.",
       "source": {
@@ -73,7 +73,7 @@
       },
       "license": {
         "spdx": "MIT",
-        "name": "MIT (© 2025 Corey Haines)"
+        "name": "MIT (\u00a9 2025 Corey Haines)"
       },
       "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
       "rawUrl": "https://secondshiftos.com/skills/prospecting.md",
@@ -96,7 +96,7 @@
       },
       "license": {
         "spdx": "Apache-2.0",
-        "name": "Apache License 2.0 (the skill’s own LICENSE.txt)"
+        "name": "Apache License 2.0 (the skill\u2019s own LICENSE.txt)"
       },
       "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
       "rawUrl": "https://secondshiftos.com/skills/frontend-design.md",
@@ -109,9 +109,9 @@
       "shelf": "Design & UI",
       "class": "works-anywhere",
       "classLabel": "Works anywhere",
-      "description": "The anti-slop frontend skill (tasteskill 2.5). It builds professional company websites at the level of figma.com and x.ai: plain copy, one design system, one section per screen, equal edges, real photographs and real product UI, quiet micro-interactions, and a checker that enforces the result in a real browser. Reach for it on any landing, company, product, or SaaS site build, redesign, restyle, or polish pass — or whenever a page looks generic or AI-made.",
+      "description": "The anti-slop frontend skill (tasteskill 2.5). It builds professional company websites at the level of figma.com and x.ai: plain copy, one design system, one section per screen, equal edges, real photographs and real product UI, quiet micro-interactions, and a checker that enforces the result in a real browser. Reach for it on any landing, company, product, or SaaS site build, redesign, restyle, or polish pass \u2014 or whenever a page looks generic or AI-made.",
       "capability": "Builds company and product websites at a professional bar: plain copy, one system, real imagery, zero generic slop.",
-      "touches": "Works on your site’s code, copy, and layout. No accounts are read and nothing is sent anywhere.",
+      "touches": "Works on your site\u2019s code, copy, and layout. No accounts are read and nothing is sent anywhere.",
       "source": {
         "name": "Leonxlnx/taste-skill",
         "repo": "https://github.com/Leonxlnx/taste-skill",
@@ -119,7 +119,7 @@
       },
       "license": {
         "spdx": "MIT",
-        "name": "MIT (© 2026 Leonxlnx)"
+        "name": "MIT (\u00a9 2026 Leonxlnx)"
       },
       "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
       "rawUrl": "https://secondshiftos.com/skills/design-taste-frontend.md",
@@ -132,8 +132,8 @@
       "shelf": "Design & UI",
       "class": "works-anywhere",
       "classLabel": "Works anywhere",
-      "description": "This skill encodes Emil Kowalski’s philosophy on UI polish, component design, and animation: taste is trained rather than innate, details compound, and the difference between good and great is a hundred small calls made correctly. Use it when an interface works but does not yet feel right.",
-      "capability": "Emil Kowalski’s design-engineering judgment: component polish, animation decisions, and the invisible details that make software feel right.",
+      "description": "This skill encodes Emil Kowalski\u2019s philosophy on UI polish, component design, and animation: taste is trained rather than innate, details compound, and the difference between good and great is a hundred small calls made correctly. Use it when an interface works but does not yet feel right.",
+      "capability": "Emil Kowalski\u2019s design-engineering judgment: component polish, animation decisions, and the invisible details that make software feel right.",
       "touches": "Judgment only. It advises on your interface; it touches no accounts, data, or settings.",
       "source": {
         "name": "emilkowalski/skills",
@@ -150,13 +150,36 @@
       "installCommand": "npx skills add emilkowalski/skills --skill emil-design-eng"
     },
     {
+      "slug": "second-shift",
+      "name": "Second Shift",
+      "shelf": "Run your business",
+      "class": "plugs-in",
+      "classLabel": "Plugs into Second Shift",
+      "description": "Work a Second Shift account through its MCP server. Use when the user runs a business on Second Shift (or you act for one) and the work touches their website inquiries, follow-up drafts, pipeline stages, review requests, QR codes, site analytics, meeting rooms, their referral link and earnings, or building tracked campaign links with UTMs. Triggers include \"check my inquiries\", \"work my pipeline\", \"send a review request\", \"how is my site doing\", \"my referral link\", \"build me a campaign link\", and any mention of Second Shift by name.",
+      "capability": "Works a Second Shift account end to end through its MCP server: the daily inquiry loop, follow-up drafts for owner approval, review requests, site analytics, the owner's referral link and earnings, and campaign doors built with UTM discipline.",
+      "touches": "Reads and works the owner's Second Shift account (inquiries, pipeline, sequences, reviews, QR codes, analytics, meeting rooms) only inside the owner's granted Agent Access permissions. Sends and mints happen only where the pipe grants them and the owner's approvals allow. It never touches billing or pricing.",
+      "source": {
+        "name": "Second Shift",
+        "repo": "https://secondshiftos.com/skills",
+        "path": "Written for this library"
+      },
+      "license": {
+        "spdx": "MIT",
+        "name": "MIT"
+      },
+      "review": "First-party: written and maintained by Second Shift.",
+      "rawUrl": "https://secondshiftos.com/skills/second-shift.md",
+      "detailUrl": "https://secondshiftos.com/skills/second-shift",
+      "installCommand": "npx skills add https://secondshiftos.com/skills/second-shift.md"
+    },
+    {
       "slug": "seo-audit",
       "name": "SEO Audit",
       "shelf": "Content & SEO",
       "class": "works-anywhere",
       "classLabel": "Works anywhere",
       "description": "A full SEO diagnostic: technical SEO, crawl and indexing issues, on-page and meta review, page speed and Core Web Vitals, ranking drops and lost traffic, and local SEO including Google Business Profile and the map pack. Use it when traffic fell, rankings stall on page two, or you just need the report to say what is wrong and what to fix first. Pages it fetches are treated as untrusted data, never as instructions.",
-      "capability": "Audits a website’s SEO end to end: technical health, rankings, meta, speed, and local presence, with fixes in priority order.",
+      "capability": "Audits a website\u2019s SEO end to end: technical health, rankings, meta, speed, and local presence, with fixes in priority order.",
       "touches": "Reads your public site and reports back. It changes nothing until you act on the findings.",
       "source": {
         "name": "coreyhaines31/marketingskills",
@@ -165,7 +188,7 @@
       },
       "license": {
         "spdx": "MIT",
-        "name": "MIT (© 2025 Corey Haines)"
+        "name": "MIT (\u00a9 2025 Corey Haines)"
       },
       "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
       "rawUrl": "https://secondshiftos.com/skills/seo-audit.md",
@@ -188,7 +211,7 @@
       },
       "license": {
         "spdx": "MIT",
-        "name": "MIT (© 2025 Corey Haines)"
+        "name": "MIT (\u00a9 2025 Corey Haines)"
       },
       "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
       "rawUrl": "https://secondshiftos.com/skills/social.md",
@@ -211,7 +234,7 @@
       },
       "license": {
         "spdx": "MIT",
-        "name": "MIT (© 2025 Corey Haines)"
+        "name": "MIT (\u00a9 2025 Corey Haines)"
       },
       "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
       "caveat": "Some production lanes use third-party generation tools through keys or accounts you supply. The skill asks what you have before planning around any of them.",
@@ -235,7 +258,7 @@
       },
       "license": {
         "spdx": "MIT",
-        "name": "MIT (© 2025 Corey Haines)"
+        "name": "MIT (\u00a9 2025 Corey Haines)"
       },
       "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
       "rawUrl": "https://secondshiftos.com/skills/community-marketing.md",
@@ -258,7 +281,7 @@
       },
       "license": {
         "spdx": "MIT",
-        "name": "MIT (© 2025 Corey Haines)"
+        "name": "MIT (\u00a9 2025 Corey Haines)"
       },
       "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
       "rawUrl": "https://secondshiftos.com/skills/influencer-marketing.md",
@@ -271,7 +294,7 @@
       "shelf": "Social media",
       "class": "works-anywhere",
       "classLabel": "Works anywhere",
-      "description": "A PR strategist for product launches, funding news, data stories, and expert commentary. It verifies that a target really covers the beat before pitching, keeps every proof point traceable to a source you provided, and drafts everything for your review. Sending pitches, booking, and follow-ups stay the user’s act, never the skill’s.",
+      "description": "A PR strategist for product launches, funding news, data stories, and expert commentary. It verifies that a target really covers the beat before pitching, keeps every proof point traceable to a source you provided, and drafts everything for your review. Sending pitches, booking, and follow-ups stay the user\u2019s act, never the skill\u2019s.",
       "capability": "Earns press coverage: finds the right journalists and outlets, checks they actually cover your space, and drafts pitches and follow-ups in a human voice.",
       "touches": "Researches public sources and drafts in your workspace. It sends nothing to any journalist or outlet.",
       "source": {
@@ -281,7 +304,7 @@
       },
       "license": {
         "spdx": "MIT",
-        "name": "MIT (© 2025 Corey Haines)"
+        "name": "MIT (\u00a9 2025 Corey Haines)"
       },
       "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
       "rawUrl": "https://secondshiftos.com/skills/public-relations.md",
@@ -304,7 +327,7 @@
       },
       "license": {
         "spdx": "MIT",
-        "name": "MIT (© 2025 Corey Haines)"
+        "name": "MIT (\u00a9 2025 Corey Haines)"
       },
       "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
       "rawUrl": "https://secondshiftos.com/skills/events.md",
@@ -327,7 +350,7 @@
       },
       "license": {
         "spdx": "MIT",
-        "name": "MIT (© 2025 Corey Haines)"
+        "name": "MIT (\u00a9 2025 Corey Haines)"
       },
       "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
       "rawUrl": "https://secondshiftos.com/skills/content-strategy.md",
@@ -340,7 +363,7 @@
       "shelf": "Content & SEO",
       "class": "works-anywhere",
       "classLabel": "Works anywhere",
-      "description": "A conversion copywriter that starts from your product context and customer language, then drafts page copy with clear structure: one job per page, proof near claims, and CTAs that say what happens next. It runs an explicit AI-tell check (no \"it’s not X, it’s Y\" reveals, no stock phrases) before anything ships to you.",
+      "description": "A conversion copywriter that starts from your product context and customer language, then drafts page copy with clear structure: one job per page, proof near claims, and CTAs that say what happens next. It runs an explicit AI-tell check (no \"it\u2019s not X, it\u2019s Y\" reveals, no stock phrases) before anything ships to you.",
       "capability": "Writes and rewrites marketing copy that converts: homepages, landing pages, pricing, features, and about pages, in your voice, free of AI tells.",
       "touches": "Writes drafts in your workspace. Your site changes only when you make them.",
       "source": {
@@ -350,7 +373,7 @@
       },
       "license": {
         "spdx": "MIT",
-        "name": "MIT (© 2025 Corey Haines)"
+        "name": "MIT (\u00a9 2025 Corey Haines)"
       },
       "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
       "rawUrl": "https://secondshiftos.com/skills/copywriting.md",
@@ -373,7 +396,7 @@
       },
       "license": {
         "spdx": "MIT",
-        "name": "MIT (© 2025 Corey Haines)"
+        "name": "MIT (\u00a9 2025 Corey Haines)"
       },
       "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
       "rawUrl": "https://secondshiftos.com/skills/copy-editing.md",
@@ -386,7 +409,7 @@
       "shelf": "Content & SEO",
       "class": "works-anywhere",
       "classLabel": "Works anywhere",
-      "description": "Covers the AI-visibility audit (which of your key queries cite you, and who they cite instead), extractable content structure, the machine-readable files agents read (llms.txt, structured pricing), and AI bot access checks. It follows Google’s own guidance where it applies and is explicit that fabricated mentions and fake reviews are out.",
+      "description": "Covers the AI-visibility audit (which of your key queries cite you, and who they cite instead), extractable content structure, the machine-readable files agents read (llms.txt, structured pricing), and AI bot access checks. It follows Google\u2019s own guidance where it applies and is explicit that fabricated mentions and fake reviews are out.",
       "capability": "Makes your content citable by AI search: audits how ChatGPT, Perplexity, Claude, and Google AI Overviews see your brand, then structures pages to be extracted and quoted.",
       "touches": "Reads your public site and public AI answers, and reports. Changes happen on your site, by you.",
       "source": {
@@ -396,7 +419,7 @@
       },
       "license": {
         "spdx": "MIT",
-        "name": "MIT (© 2025 Corey Haines)"
+        "name": "MIT (\u00a9 2025 Corey Haines)"
       },
       "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
       "rawUrl": "https://secondshiftos.com/skills/ai-seo.md",
@@ -419,7 +442,7 @@
       },
       "license": {
         "spdx": "MIT",
-        "name": "MIT (© 2025 Corey Haines)"
+        "name": "MIT (\u00a9 2025 Corey Haines)"
       },
       "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
       "rawUrl": "https://secondshiftos.com/skills/programmatic-seo.md",
@@ -432,7 +455,7 @@
       "shelf": "Content & SEO",
       "class": "works-anywhere",
       "classLabel": "Works anywhere",
-      "description": "Diagnoses whether links are actually your bottleneck, inventories what you have that is worth linking to, then works the tactic ladder from unlinked-mention reclamation up to data-led digital PR. It stays inside Google’s spam rules: no bought ranking links, no private blog networks, and outreach is drafted for your approval, never sent on your behalf.",
+      "description": "Diagnoses whether links are actually your bottleneck, inventories what you have that is worth linking to, then works the tactic ladder from unlinked-mention reclamation up to data-led digital PR. It stays inside Google\u2019s spam rules: no bought ranking links, no private blog networks, and outreach is drafted for your approval, never sent on your behalf.",
       "capability": "Earns backlinks and third-party mentions that lift rankings and AI citations, starting with reclamation and partner pages before any outreach.",
       "touches": "Researches public link data and drafts outreach for your approval. It sends nothing itself.",
       "source": {
@@ -442,7 +465,7 @@
       },
       "license": {
         "spdx": "MIT",
-        "name": "MIT (© 2025 Corey Haines)"
+        "name": "MIT (\u00a9 2025 Corey Haines)"
       },
       "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
       "rawUrl": "https://secondshiftos.com/skills/link-building.md",
@@ -455,7 +478,7 @@
       "shelf": "Content & SEO",
       "class": "works-anywhere",
       "classLabel": "Works anywhere",
-      "description": "Implements structured data by page type with accuracy as the first rule: schema must match visible content, everything gets validated, and Google’s current feature support is checked first (it will tell you when a rich result you want has been retired rather than sell you markup that cannot pay off).",
+      "description": "Implements structured data by page type with accuracy as the first rule: schema must match visible content, everything gets validated, and Google\u2019s current feature support is checked first (it will tell you when a rich result you want has been retired rather than sell you markup that cannot pay off).",
       "capability": "Adds and fixes schema.org structured data (JSON-LD) so search engines understand your pages and the right rich results can appear.",
       "touches": "Produces markup for your site. You or your developer ship it.",
       "source": {
@@ -465,7 +488,7 @@
       },
       "license": {
         "spdx": "MIT",
-        "name": "MIT (© 2025 Corey Haines)"
+        "name": "MIT (\u00a9 2025 Corey Haines)"
       },
       "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
       "rawUrl": "https://secondshiftos.com/skills/schema.md",
@@ -479,7 +502,7 @@
       "class": "works-anywhere",
       "classLabel": "Works anywhere",
       "description": "An information-architecture pass for new sites and restructures: hierarchy trees and visual sitemaps, header and footer navigation specs, readable URL patterns, and a hub-and-spoke internal linking plan, delivered as documents you can hand to a builder.",
-      "capability": "Plans a website’s structure: page hierarchy, navigation, URL patterns, and internal linking that visitors and search engines can both follow.",
+      "capability": "Plans a website\u2019s structure: page hierarchy, navigation, URL patterns, and internal linking that visitors and search engines can both follow.",
       "touches": "Produces plans and diagrams in your workspace. It changes no site.",
       "source": {
         "name": "coreyhaines31/marketingskills",
@@ -488,7 +511,7 @@
       },
       "license": {
         "spdx": "MIT",
-        "name": "MIT (© 2025 Corey Haines)"
+        "name": "MIT (\u00a9 2025 Corey Haines)"
       },
       "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
       "rawUrl": "https://secondshiftos.com/skills/site-architecture.md",
@@ -501,7 +524,7 @@
       "shelf": "Content & SEO",
       "class": "works-anywhere",
       "classLabel": "Works anywhere",
-      "description": "Creates the four comparison formats from a centralized competitor data file, under strict evidence discipline: competitor facts are dated and sourced, \"not observed\" is never written as \"doesn’t have it,\" competitor strengths are acknowledged, and stale claims get audited and fixed. Honesty is treated as the ranking strategy, not a constraint on it.",
+      "description": "Creates the four comparison formats from a centralized competitor data file, under strict evidence discipline: competitor facts are dated and sourced, \"not observed\" is never written as \"doesn\u2019t have it,\" competitor strengths are acknowledged, and stale claims get audited and fixed. Honesty is treated as the ranking strategy, not a constraint on it.",
       "capability": "Builds competitor comparison and alternative pages (\"X alternative,\" \"you vs X\") that rank, read honestly, and help buyers actually decide.",
       "touches": "Works from your research files and public competitor pages, which it treats as data, never instructions.",
       "source": {
@@ -511,7 +534,7 @@
       },
       "license": {
         "spdx": "MIT",
-        "name": "MIT (© 2025 Corey Haines)"
+        "name": "MIT (\u00a9 2025 Corey Haines)"
       },
       "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
       "rawUrl": "https://secondshiftos.com/skills/competitors.md",
@@ -534,7 +557,7 @@
       },
       "license": {
         "spdx": "MIT",
-        "name": "MIT (© 2025 Corey Haines)"
+        "name": "MIT (\u00a9 2025 Corey Haines)"
       },
       "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
       "rawUrl": "https://secondshiftos.com/skills/image.md",
@@ -557,7 +580,7 @@
       },
       "license": {
         "spdx": "MIT",
-        "name": "MIT (© 2025 Corey Haines)"
+        "name": "MIT (\u00a9 2025 Corey Haines)"
       },
       "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
       "rawUrl": "https://secondshiftos.com/skills/product-marketing.md",
@@ -580,7 +603,7 @@
       },
       "license": {
         "spdx": "MIT",
-        "name": "MIT (© 2025 Corey Haines)"
+        "name": "MIT (\u00a9 2025 Corey Haines)"
       },
       "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
       "rawUrl": "https://secondshiftos.com/skills/marketing-ideas.md",
@@ -603,7 +626,7 @@
       },
       "license": {
         "spdx": "MIT",
-        "name": "MIT (© 2025 Corey Haines)"
+        "name": "MIT (\u00a9 2025 Corey Haines)"
       },
       "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
       "rawUrl": "https://secondshiftos.com/skills/marketing-psychology.md",
@@ -626,7 +649,7 @@
       },
       "license": {
         "spdx": "MIT",
-        "name": "MIT (© 2025 Corey Haines)"
+        "name": "MIT (\u00a9 2025 Corey Haines)"
       },
       "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
       "rawUrl": "https://secondshiftos.com/skills/marketing-plan.md",
@@ -639,7 +662,7 @@
       "shelf": "Marketing strategy",
       "class": "works-anywhere",
       "classLabel": "Works anywhere",
-      "description": "Seats three to five advisors whose lenses genuinely conflict, including at least one designated dissenter, applies each one’s published frameworks to your specific case, maps where they disagree and what evidence would settle it, and closes with a chair’s synthesis fitted to your stage. It is labeled a simulation, grounded in what each advisor actually wrote, with no fabricated quotes or invented endorsements.",
+      "description": "Seats three to five advisors whose lenses genuinely conflict, including at least one designated dissenter, applies each one\u2019s published frameworks to your specific case, maps where they disagree and what evidence would settle it, and closes with a chair\u2019s synthesis fitted to your stage. It is labeled a simulation, grounded in what each advisor actually wrote, with no fabricated quotes or invented endorsements.",
       "capability": "Convenes a simulated board of legendary marketers (Godin, Ogilvy, Schwartz, Dunford, Sharp, and more) to argue your decision from their documented frameworks.",
       "touches": "A thinking exercise over material you provide. It touches no accounts and executes nothing.",
       "source": {
@@ -649,7 +672,7 @@
       },
       "license": {
         "spdx": "MIT",
-        "name": "MIT (© 2025 Corey Haines)"
+        "name": "MIT (\u00a9 2025 Corey Haines)"
       },
       "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
       "rawUrl": "https://secondshiftos.com/skills/marketing-council.md",
@@ -672,7 +695,7 @@
       },
       "license": {
         "spdx": "MIT",
-        "name": "MIT (© 2025 Corey Haines)"
+        "name": "MIT (\u00a9 2025 Corey Haines)"
       },
       "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
       "rawUrl": "https://secondshiftos.com/skills/launch.md",
@@ -695,7 +718,7 @@
       },
       "license": {
         "spdx": "MIT",
-        "name": "MIT (© 2025 Corey Haines)"
+        "name": "MIT (\u00a9 2025 Corey Haines)"
       },
       "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
       "rawUrl": "https://secondshiftos.com/skills/offers.md",
@@ -718,7 +741,7 @@
       },
       "license": {
         "spdx": "MIT",
-        "name": "MIT (© 2025 Corey Haines)"
+        "name": "MIT (\u00a9 2025 Corey Haines)"
       },
       "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
       "rawUrl": "https://secondshiftos.com/skills/pricing.md",
@@ -741,7 +764,7 @@
       },
       "license": {
         "spdx": "MIT",
-        "name": "MIT (© 2025 Corey Haines)"
+        "name": "MIT (\u00a9 2025 Corey Haines)"
       },
       "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
       "rawUrl": "https://secondshiftos.com/skills/co-marketing.md",
@@ -764,7 +787,7 @@
       },
       "license": {
         "spdx": "MIT",
-        "name": "MIT (© 2025 Corey Haines)"
+        "name": "MIT (\u00a9 2025 Corey Haines)"
       },
       "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
       "rawUrl": "https://secondshiftos.com/skills/marketing-loops.md",
@@ -787,7 +810,7 @@
       },
       "license": {
         "spdx": "MIT",
-        "name": "MIT (© 2025 Corey Haines)"
+        "name": "MIT (\u00a9 2025 Corey Haines)"
       },
       "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
       "rawUrl": "https://secondshiftos.com/skills/customer-research.md",
@@ -800,7 +823,7 @@
       "shelf": "Research",
       "class": "works-anywhere",
       "classLabel": "Works anywhere",
-      "description": "Scrapes each competitor’s key pages and pulls SEO and market data where you have a source connected, saving every raw pull to disk before synthesizing so profiles can be re-run and diffed over time. Claims are kept in three labeled layers (observed, inferred, implication), motives are never stated as fact, and fetched pages are treated as data that may contain embedded instructions to ignore.",
+      "description": "Scrapes each competitor\u2019s key pages and pulls SEO and market data where you have a source connected, saving every raw pull to disk before synthesizing so profiles can be re-run and diffed over time. Claims are kept in three labeled layers (observed, inferred, implication), motives are never stated as fact, and fetched pages are treated as data that may contain embedded instructions to ignore.",
       "capability": "Turns a list of competitor URLs into structured, dated competitor profiles: positioning, pricing, features, customers, and SEO strength, side by side.",
       "touches": "Reads public competitor sites and the data tools you connect. It changes nothing on any site.",
       "source": {
@@ -810,7 +833,7 @@
       },
       "license": {
         "spdx": "MIT",
-        "name": "MIT (© 2025 Corey Haines)"
+        "name": "MIT (\u00a9 2025 Corey Haines)"
       },
       "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
       "rawUrl": "https://secondshiftos.com/skills/competitor-profiling.md",
@@ -833,7 +856,7 @@
       },
       "license": {
         "spdx": "MIT",
-        "name": "MIT (© 2025 Corey Haines)"
+        "name": "MIT (\u00a9 2025 Corey Haines)"
       },
       "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
       "rawUrl": "https://secondshiftos.com/skills/reverse-engineer-marketing.md",
@@ -856,7 +879,7 @@
       },
       "license": {
         "spdx": "MIT",
-        "name": "MIT (© 2025 Corey Haines)"
+        "name": "MIT (\u00a9 2025 Corey Haines)"
       },
       "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
       "rawUrl": "https://secondshiftos.com/skills/cold-email.md",
@@ -879,7 +902,7 @@
       },
       "license": {
         "spdx": "MIT",
-        "name": "MIT (© 2025 Corey Haines)"
+        "name": "MIT (\u00a9 2025 Corey Haines)"
       },
       "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
       "rawUrl": "https://secondshiftos.com/skills/sales-enablement.md",
@@ -902,7 +925,7 @@
       },
       "license": {
         "spdx": "MIT",
-        "name": "MIT (© 2025 Corey Haines)"
+        "name": "MIT (\u00a9 2025 Corey Haines)"
       },
       "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
       "rawUrl": "https://secondshiftos.com/skills/revops.md",
@@ -925,7 +948,7 @@
       },
       "license": {
         "spdx": "MIT",
-        "name": "MIT (© 2025 Corey Haines)"
+        "name": "MIT (\u00a9 2025 Corey Haines)"
       },
       "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
       "rawUrl": "https://secondshiftos.com/skills/emails.md",
@@ -948,7 +971,7 @@
       },
       "license": {
         "spdx": "MIT",
-        "name": "MIT (© 2025 Corey Haines)"
+        "name": "MIT (\u00a9 2025 Corey Haines)"
       },
       "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
       "rawUrl": "https://secondshiftos.com/skills/sms.md",
@@ -971,7 +994,7 @@
       },
       "license": {
         "spdx": "MIT",
-        "name": "MIT (© 2025 Corey Haines)"
+        "name": "MIT (\u00a9 2025 Corey Haines)"
       },
       "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
       "rawUrl": "https://secondshiftos.com/skills/cro.md",
@@ -994,7 +1017,7 @@
       },
       "license": {
         "spdx": "MIT",
-        "name": "MIT (© 2025 Corey Haines)"
+        "name": "MIT (\u00a9 2025 Corey Haines)"
       },
       "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
       "rawUrl": "https://secondshiftos.com/skills/signup.md",
@@ -1007,7 +1030,7 @@
       "shelf": "Growth & conversion",
       "class": "works-anywhere",
       "classLabel": "Works anywhere",
-      "description": "Covers trigger strategy (scroll, exit intent, click, behavior), popup types from email capture to announcement bars, frequency capping that remembers dismissals, and copy with polite decline options. The respect rules are explicit: easy to close, never trap or trick, no guilt-trip declines, GDPR consent and accessibility handled, and Google’s interstitial guidelines respected.",
+      "description": "Covers trigger strategy (scroll, exit intent, click, behavior), popup types from email capture to announcement bars, frequency capping that remembers dismissals, and copy with polite decline options. The respect rules are explicit: easy to close, never trap or trick, no guilt-trip declines, GDPR consent and accessibility handled, and Google\u2019s interstitial guidelines respected.",
       "capability": "Designs popups, modals, slide-ins, and banners that convert without annoying people or damaging the brand.",
       "touches": "Designs and specifies popups for your site. Implementation is in your stack.",
       "source": {
@@ -1017,7 +1040,7 @@
       },
       "license": {
         "spdx": "MIT",
-        "name": "MIT (© 2025 Corey Haines)"
+        "name": "MIT (\u00a9 2025 Corey Haines)"
       },
       "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
       "rawUrl": "https://secondshiftos.com/skills/popups.md",
@@ -1040,7 +1063,7 @@
       },
       "license": {
         "spdx": "MIT",
-        "name": "MIT (© 2025 Corey Haines)"
+        "name": "MIT (\u00a9 2025 Corey Haines)"
       },
       "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
       "rawUrl": "https://secondshiftos.com/skills/paywalls.md",
@@ -1053,7 +1076,7 @@
       "shelf": "Growth & conversion",
       "class": "works-anywhere",
       "classLabel": "Works anywhere",
-      "description": "Defines activation honestly first (an early action, a retention window, cohorts fully observed, correlation never sold as causation), then designs the first session: one goal, do-don’t-show, progress that starts pre-loaded, and email that reinforces the product instead of duplicating it. Stalled users get a defined detection rule and a recovery path, not vibes.",
+      "description": "Defines activation honestly first (an early action, a retention window, cohorts fully observed, correlation never sold as causation), then designs the first session: one goal, do-don\u2019t-show, progress that starts pre-loaded, and email that reinforces the product instead of duplicating it. Stalled users get a defined detection rule and a recovery path, not vibes.",
       "capability": "Gets new users to the aha moment fast: minimum path to value, checklists, empty states, and re-engagement for users who stall.",
       "touches": "Designs flows and writes copy in your workspace. Product changes are yours to ship.",
       "source": {
@@ -1063,7 +1086,7 @@
       },
       "license": {
         "spdx": "MIT",
-        "name": "MIT (© 2025 Corey Haines)"
+        "name": "MIT (\u00a9 2025 Corey Haines)"
       },
       "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
       "rawUrl": "https://secondshiftos.com/skills/onboarding.md",
@@ -1086,7 +1109,7 @@
       },
       "license": {
         "spdx": "MIT",
-        "name": "MIT (© 2025 Corey Haines)"
+        "name": "MIT (\u00a9 2025 Corey Haines)"
       },
       "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
       "rawUrl": "https://secondshiftos.com/skills/ab-testing.md",
@@ -1109,7 +1132,7 @@
       },
       "license": {
         "spdx": "MIT",
-        "name": "MIT (© 2025 Corey Haines)"
+        "name": "MIT (\u00a9 2025 Corey Haines)"
       },
       "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
       "rawUrl": "https://secondshiftos.com/skills/lead-magnets.md",
@@ -1122,7 +1145,7 @@
       "shelf": "Growth & conversion",
       "class": "works-anywhere",
       "classLabel": "Works anywhere",
-      "description": "Checks first whether virality can be built into the product before paying for it in rewards, then designs the loop: trigger moments at the aha point, one-click sharing, incentive structures presented honestly, fraud rules, and measurement of referred-customer LTV and churn against your other channels. Review requests follow each platform’s rules, which it checks before proposing incentives.",
+      "description": "Checks first whether virality can be built into the product before paying for it in rewards, then designs the loop: trigger moments at the aha point, one-click sharing, incentive structures presented honestly, fraud rules, and measurement of referred-customer LTV and churn against your other channels. Review requests follow each platform\u2019s rules, which it checks before proposing incentives.",
       "capability": "Designs referral and affiliate programs that turn customers into a growth channel, and review programs that earn the ratings AI shortlists trust.",
       "touches": "Designs the program and drafts its emails. Payouts, tracking, and sending run in your tools.",
       "source": {
@@ -1132,7 +1155,7 @@
       },
       "license": {
         "spdx": "MIT",
-        "name": "MIT (© 2025 Corey Haines)"
+        "name": "MIT (\u00a9 2025 Corey Haines)"
       },
       "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
       "rawUrl": "https://secondshiftos.com/skills/referrals.md",
@@ -1155,7 +1178,7 @@
       },
       "license": {
         "spdx": "MIT",
-        "name": "MIT (© 2025 Corey Haines)"
+        "name": "MIT (\u00a9 2025 Corey Haines)"
       },
       "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
       "rawUrl": "https://secondshiftos.com/skills/free-tools.md",
@@ -1178,7 +1201,7 @@
       },
       "license": {
         "spdx": "MIT",
-        "name": "MIT (© 2025 Corey Haines)"
+        "name": "MIT (\u00a9 2025 Corey Haines)"
       },
       "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
       "rawUrl": "https://secondshiftos.com/skills/churn-prevention.md",
@@ -1201,7 +1224,7 @@
       },
       "license": {
         "spdx": "MIT",
-        "name": "MIT (© 2025 Corey Haines)"
+        "name": "MIT (\u00a9 2025 Corey Haines)"
       },
       "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
       "caveat": "This skill can read connected ad accounts to plan and audit. Its own rule, printed in the file, is draft-first on live accounts: nothing changes without your explicit approval.",
@@ -1225,7 +1248,7 @@
       },
       "license": {
         "spdx": "MIT",
-        "name": "MIT (© 2025 Corey Haines)"
+        "name": "MIT (\u00a9 2025 Corey Haines)"
       },
       "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
       "rawUrl": "https://secondshiftos.com/skills/ad-creative.md",
@@ -1248,7 +1271,7 @@
       },
       "license": {
         "spdx": "MIT",
-        "name": "MIT (© 2025 Corey Haines)"
+        "name": "MIT (\u00a9 2025 Corey Haines)"
       },
       "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
       "rawUrl": "https://secondshiftos.com/skills/analytics.md",
@@ -1271,7 +1294,7 @@
       },
       "license": {
         "spdx": "MIT",
-        "name": "MIT (© 2025 Corey Haines)"
+        "name": "MIT (\u00a9 2025 Corey Haines)"
       },
       "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
       "rawUrl": "https://secondshiftos.com/skills/attribution.md",
@@ -1294,7 +1317,7 @@
       },
       "license": {
         "spdx": "MIT",
-        "name": "MIT (© 2025 Corey Haines)"
+        "name": "MIT (\u00a9 2025 Corey Haines)"
       },
       "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
       "rawUrl": "https://secondshiftos.com/skills/conversion-tracking.md",
@@ -1308,7 +1331,7 @@
       "class": "works-anywhere",
       "classLabel": "Works anywhere",
       "description": "Fetches the live public listing, scores six weighted dimensions (title, description, visuals, ratings, freshness, conversion signals), and adjusts the bar honestly: a household-name app is not docked for brand choices a challenger would be. Every recommendation is specific with character counts, and what cannot be assessed without paid tools is flagged instead of guessed. Listings and reviews are treated as untrusted data throughout.",
-      "capability": "Audits App Store and Google Play listings field by field and scores them, with fixes ranked by impact for your app’s actual maturity tier.",
+      "capability": "Audits App Store and Google Play listings field by field and scores them, with fixes ranked by impact for your app\u2019s actual maturity tier.",
       "touches": "Reads public store listings and reports. Listing changes happen in your store consoles.",
       "source": {
         "name": "coreyhaines31/marketingskills",
@@ -1317,7 +1340,7 @@
       },
       "license": {
         "spdx": "MIT",
-        "name": "MIT (© 2025 Corey Haines)"
+        "name": "MIT (\u00a9 2025 Corey Haines)"
       },
       "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
       "rawUrl": "https://secondshiftos.com/skills/aso.md",
@@ -1340,7 +1363,7 @@
       },
       "license": {
         "spdx": "MIT",
-        "name": "MIT (© 2025 Corey Haines)"
+        "name": "MIT (\u00a9 2025 Corey Haines)"
       },
       "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
       "rawUrl": "https://secondshiftos.com/skills/directory-submissions.md",
@@ -1353,9 +1376,9 @@
       "shelf": "Campaigns",
       "class": "plugs-in",
       "classLabel": "Plugs into Second Shift",
-      "description": "A first-party Second Shift skill for local businesses. It builds the whole campaign as one pack the owner approves before anything sends: the audience picked from the owner’s own leads, the offer framed in plain words, the announcement, follow-ups, and last call written in full, a QR hook, and a send calendar with early-stop conditions. Second Shift provides the pipe (leads, analytics summary, QR codes) inside the permissions the owner granted; the writing, the calendar, and all sending happen in the owner’s own tools.",
-      "capability": "Turns a business, an offer, and a goal into a complete campaign pack: the audience, the framed offer, every message written in full, a tracked QR hook, and a send calendar, ready for the owner’s approval.",
-      "touches": "Reads the owner’s leads and analytics through Second Shift only inside the owner’s granted permissions, and can mint a QR code with the owner’s approval. It sends nothing itself; sending happens in the owner’s own tools after the pack is approved.",
+      "description": "A first-party Second Shift skill for local businesses. It builds the whole campaign as one pack the owner approves before anything sends: the audience picked from the owner\u2019s own leads, the offer framed in plain words, the announcement, follow-ups, and last call written in full, a QR hook, and a send calendar with early-stop conditions. Second Shift provides the pipe (leads, analytics summary, QR codes) inside the permissions the owner granted; the writing, the calendar, and all sending happen in the owner\u2019s own tools.",
+      "capability": "Turns a business, an offer, and a goal into a complete campaign pack: the audience, the framed offer, every message written in full, a tracked QR hook, and a send calendar, ready for the owner\u2019s approval.",
+      "touches": "Reads the owner\u2019s leads and analytics through Second Shift only inside the owner\u2019s granted permissions, and can mint a QR code with the owner\u2019s approval. It sends nothing itself; sending happens in the owner\u2019s own tools after the pack is approved.",
       "source": {
         "name": "Second Shift",
         "repo": "https://secondshiftos.com/skills",
@@ -1376,9 +1399,9 @@
       "shelf": "Social media",
       "class": "works-anywhere",
       "classLabel": "Works anywhere",
-      "description": "A first-party Second Shift skill for local businesses that want steady Facebook, Instagram, or X posting without handing an agent the keys. The agent prepares the whole week (calendar, full captions in the owner’s voice, images sized per surface and checked by eye, names spelled letter by letter), the owner reviews the pack once, and only then does anything get scheduled, in the platforms’ own native tools on the owner’s accounts.",
-      "capability": "Builds a week of social posts as one review-ready pack: the calendar, every caption drafted in the owner’s voice, and every image sized for its surface.",
-      "touches": "Works only in the owner’s own files and platform accounts. It posts and schedules nothing before the owner’s review, and schedules only through the platforms’ own native tools.",
+      "description": "A first-party Second Shift skill for local businesses that want steady Facebook, Instagram, or X posting without handing an agent the keys. The agent prepares the whole week (calendar, full captions in the owner\u2019s voice, images sized per surface and checked by eye, names spelled letter by letter), the owner reviews the pack once, and only then does anything get scheduled, in the platforms\u2019 own native tools on the owner\u2019s accounts.",
+      "capability": "Builds a week of social posts as one review-ready pack: the calendar, every caption drafted in the owner\u2019s voice, and every image sized for its surface.",
+      "touches": "Works only in the owner\u2019s own files and platform accounts. It posts and schedules nothing before the owner\u2019s review, and schedules only through the platforms\u2019 own native tools.",
       "source": {
         "name": "Second Shift",
         "repo": "https://secondshiftos.com/skills",
@@ -1409,7 +1432,7 @@
       },
       "license": {
         "spdx": "MIT",
-        "name": "MIT (© 2026 Matt Pocock)"
+        "name": "MIT (\u00a9 2026 Matt Pocock)"
       },
       "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
       "rawUrl": "https://secondshiftos.com/skills/research.md",
@@ -1432,7 +1455,7 @@
       },
       "license": {
         "spdx": "MIT",
-        "name": "MIT (© 2025 Jesse Vincent)"
+        "name": "MIT (\u00a9 2025 Jesse Vincent)"
       },
       "review": "Reviewed: read in full and installed by the Second Shift fleet on 2026-11-06. The file served here is that reviewed copy.",
       "rawUrl": "https://secondshiftos.com/skills/brainstorming.md",
